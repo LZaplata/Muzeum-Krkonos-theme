@@ -1,0 +1,44 @@
+.contents
+    .content
+        &-text
+            *:last-child
+                margin-bottom: 0
+
+            p
+                margin-bottom: $content-text-gap-base
+                color: $content-text-color
+
+                strong
+                    font-weight: $content-text-strong-font-weight
+
+                a
+                    color: $content-text-link-color
+                    font-weight: $content-text-link-font-weight
+                    text-decoration: underline
+                    text-decoration-color: $content-text-link-underline-color
+                    transition: $transition-base
+
+                    &:hover
+                        color: $content-text-link-hover-color
+                        text-decoration-color: $content-text-link-hover-underline-color
+
+            .table-responsive
+                margin-top: $content-text-gap-lg
+
+                tr
+                    td, th
+                        white-space: nowrap
+
+                thead
+                    tr
+                        td, th
+                            background-color: $content-text-table-head-bg
+                            font-size: $content-text-table-head-font-size
+
+                tbody
+                    tr
+                        td, th
+                            font-size: $content-text-table-body-font-size
+
+                            strong
+                                font-weight: $table-th-font-weight

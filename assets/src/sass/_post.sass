@@ -1,0 +1,61 @@
+.post
+    &-card
+        a
+            .img
+                .overlay
+                    background-color: $post-card-image-overlay-bg
+                    opacity: 0
+                    transition: $transition-base
+
+                    .icon
+                        font-size: $post-card-image-overlay-icon-font-size
+
+            .title
+                font-size: $post-card-title-font-size
+                font-weight: $post-card-title-font-weight
+                text-decoration: underline
+                text-decoration-color: $post-card-title-underline-color
+                transition: $transition-base
+
+            &:hover
+                .img
+                    .overlay
+                        opacity: 1
+
+                .title
+                    text-decoration-color: $post-card-hover-title-underline-color
+
+#post
+    .content
+        p
+            margin-bottom: map-get($spacers, 4)
+
+            & + h2
+                margin-top: map-get($spacers, 5)
+
+            & + h3
+                margin-top: map-get($spacers, 5)
+
+            & + h4
+                margin-top: map-get($spacers, 5)
+
+            & + h5
+                margin-top: map-get($spacers, 5)
+
+        h2, h3, h4, h5
+            margin-bottom: map-get($spacers, 4)
+
+        strong
+            font-weight: $post-font-weight-bold
+
+        ul
+            padding-left: 0
+            margin-bottom: map-get($spacers, 4)
+
+            li
+                list-style-type: none
+
+                &:before
+                    content: "•"
+                    position: relative
+                    margin-right: 10px

@@ -1,0 +1,143 @@
+items:
+    -
+        title: 'Muzea a expozice'
+        nesting: null
+        type: header
+        url: null
+        code: museums
+        reference: null
+        cmsPage: null
+        replace: null
+        viewBag:
+            isHidden: '0'
+            cssClass: ''
+            isExternal: '0'
+        items:
+            -
+                title: 'Muzeum Krkonoš'
+                type: page
+                code: ''
+                reference: '2'
+                cmsPage: page-muzeum-krkonos
+                viewBag:
+                    isHidden: '0'
+                    cssClass: ''
+                    isExternal: '0'
+            -
+                title: 'Krkonošské muzeum Vrchlabí'
+                nesting: null
+                type: page
+                url: null
+                code: ''
+                reference: '1'
+                cmsPage: page
+                replace: null
+                viewBag:
+                    isHidden: '0'
+                    cssClass: ''
+                    isExternal: '1'
+            -
+                title: 'Krkonošské muzeum Jilemnice'
+                nesting: null
+                type: header
+                url: null
+                code: ''
+                reference: null
+                cmsPage: null
+                replace: null
+                viewBag:
+                    isHidden: '0'
+                    cssClass: ''
+                    isExternal: '0'
+            -
+                title: 'Památník zapadlých vlastenců Paseky nad Jizerou'
+                nesting: null
+                type: header
+                url: null
+                code: ''
+                reference: null
+                cmsPage: null
+                replace: null
+                viewBag:
+                    isHidden: '0'
+                    cssClass: ''
+                    isExternal: '0'
+            -
+                title: 'Krkonošské muzeum Šindelka Harrachov'
+                nesting: null
+                type: url
+                url: /
+                code: ''
+                reference: null
+                cmsPage: null
+                replace: null
+                viewBag:
+                    isHidden: '0'
+                    cssClass: ''
+                    isExternal: '0'
+            -
+                title: 'Expozice Vápenka Albeřice'
+                nesting: null
+                type: url
+                url: /
+                code: ''
+                reference: null
+                cmsPage: null
+                replace: null
+                viewBag:
+                    isHidden: '0'
+                    cssClass: ''
+                    isExternal: '0'
+    -
+        title: Infocentra
+        nesting: null
+        type: header
+        url: null
+        code: ''
+        reference: null
+        cmsPage: null
+        replace: null
+        viewBag:
+            isHidden: '0'
+            cssClass: ''
+            isExternal: '0'
+    -
+        title: Ekocentrum
+        nesting: null
+        type: header
+        url: null
+        code: ''
+        reference: null
+        cmsPage: null
+        replace: null
+        viewBag:
+            isHidden: '0'
+            cssClass: ''
+            isExternal: '0'
+    -
+        title: FAQ
+        nesting: null
+        type: header
+        url: null
+        code: ''
+        reference: null
+        cmsPage: null
+        replace: null
+        viewBag:
+            isHidden: '0'
+            cssClass: ''
+            isExternal: '0'
+    -
+        title: Kontakty
+        nesting: null
+        type: page
+        url: null
+        code: ''
+        reference: '1'
+        cmsPage: page
+        replace: null
+        viewBag:
+            isHidden: '0'
+            cssClass: ''
+            isExternal: '0'
+name: 'Main Menu'

@@ -1,0 +1,127 @@
+name: 'Muzeum Krkonoš'
+description: 'Theme for museums in The Giant Mountains handled by KRNAP.'
+author: 'Lukáš Záplata'
+homepage: ''
+authorCode: LZaplata
+code: muzeumkrkonos
+parent: ''
+database: '0'
+require:
+    - initbiz.seostorm
+    - rainlab.pages
+    - janvince.smallgdpr
+form:
+    tabs:
+        fields:
+            phone:
+                label: Telefon
+                type: text
+                span: left
+                tab: Kontakt
+            email:
+                label: E-mail
+                type: text
+                span: right
+                tab: Kontakt
+            street:
+                label: Ulice
+                type: text
+                span: left
+                tab: Kontakt
+            street_no:
+                label: Číslo domu
+                type: text
+                span: right
+                tab: Kontakt
+            city:
+                label: Město
+                type: text
+                span: left
+                tab: Kontakt
+            zip:
+                label: PSČ
+                type: text
+                span: right
+                tab: Kontakt
+            map_link:
+                label: Odkaz na mapu
+                type: text
+                span: left
+                tab: Kontakt
+            facebook:
+                label: Facebook
+                type: text
+                span: left
+                tab: Sociální sítě
+            instagram:
+                label: Instagram
+                type: text
+                span: right
+                tab: Sociální sítě
+            youtube:
+                label: Youtube
+                type: text
+                span: left
+                tab: Sociální sítě
+            museums:
+                type: repeater
+                tab: Muzea
+                itemsExpanded: false
+                form:
+                    fields:
+                        image:
+                            label: Obrázek
+                            type: mediafinder
+                            span: left
+                            maxItems: 1
+                        title:
+                            label: Název
+                            type: text
+                            span: left
+                        link:
+                            label: Odkaz
+                            type: pagefinder
+                            span: right
+                        lng:
+                            label: GPS délka
+                            type: text
+                            span: left
+                        lat:
+                            label: GPS šířka
+                            type: text
+                            span: right
+            museums_menu_text:
+                label: Text v menu
+                type: textarea
+                tab: Muzea
+            infocenters:
+                type: repeater
+                tab: Infocentra
+                itemsExpanded: false
+                form:
+                    fields:
+                        image:
+                            label: Obrázek
+                            type: mediafinder
+                            span: left
+                            maxItems: 1
+                        title:
+                            label: Název
+                            type: text
+                            span: left
+                        link:
+                            label: Odkaz
+                            type: pagefinder
+                            span: right
+#                        lng:
+#                            label: GPS délka
+#                            type: text
+#                            span: left
+#                        lat:
+#                            label: GPS šířka
+#                            type: text
+#                            span: right
+            infocenters_menu_text:
+                label: Text v menu
+                type: textarea
+                tab: Infocentra

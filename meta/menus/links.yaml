@@ -1,0 +1,64 @@
+items:
+    -
+        title: 'Muzejní sbírky'
+        type: url
+        url: /
+        code: ''
+        viewBag:
+            isHidden: '0'
+            cssClass: ''
+            isExternal: '0'
+    -
+        title: E-shop
+        type: url
+        url: /
+        code: ''
+        viewBag:
+            isHidden: '0'
+            cssClass: ''
+            isExternal: '0'
+    -
+        title: Knihovna
+        type: url
+        url: /
+        code: ''
+        viewBag:
+            isHidden: '0'
+            cssClass: ''
+            isExternal: '0'
+    -
+        title: 'Správa KRNAP'
+        type: url
+        url: /
+        code: ''
+        viewBag:
+            isHidden: '0'
+            cssClass: ''
+            isExternal: '0'
+    -
+        title: 'Nastavení cookies'
+        nesting: null
+        type: cms-page
+        url: null
+        code: ''
+        reference: nastaveni-cookies
+        cmsPage: null
+        replace: null
+        viewBag:
+            isHidden: '0'
+            cssClass: ''
+            isExternal: '0'
+    -
+        title: GDPR
+        nesting: null
+        type: entry-lzaplata_pages
+        url: null
+        code: ''
+        reference: '19'
+        cmsPage: stranka
+        replace: null
+        viewBag:
+            isHidden: '0'
+            cssClass: ''
+            isExternal: '0'
+name: Links

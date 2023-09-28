@@ -1,0 +1,25 @@
+items:
+    -
+        title: Vstupenky
+        nesting: null
+        type: url
+        url: 'https://www.krnap.cz'
+        code: ''
+        reference: null
+        cmsPage: null
+        replace: null
+        viewBag:
+            isHidden: '0'
+            cssClass: ''
+            isExternal: '1'
+    -
+        title: 'Pro badatele'
+        type: page
+        code: ''
+        reference: '2'
+        cmsPage: page-muzeum-krkonos
+        viewBag:
+            isHidden: '0'
+            cssClass: ''
+            isExternal: '0'
+name: 'Muzeum Krkonoš'

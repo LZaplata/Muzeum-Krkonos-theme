@@ -1,0 +1,8 @@
+{
+    "name": "lzaplata/muzeumkrkonos-theme",
+    "type": "october-theme",
+    "description": "Theme for museums in The Giant Mountains handled by KRNAP.",
+    "require": {
+        "composer/installers": "~1.0"
+    }
+}

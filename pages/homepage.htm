@@ -1,0 +1,51 @@
+url = "/"
+layout = "default"
+title = "Úvod"
+
+[collection slider]
+handle = "Slider\Slide"
+
+[global slider_settings]
+handle = "Slider\Settings"
+
+[collection partners]
+handle = "Partners\Partner"
+==
+{% if slider.getIterator().count %}
+    <div class="container-fluid">
+        <div class="container-fluid">
+            {% partial "_swiper/slider" slides=slider settings=slider_settings %}
+        </div>
+    </div>
+{% endif %}
+
+<div class="container-fluid pt-5">
+    <div class="container-lg pt-xl-4">
+        <h2 class="h1 mb-4 mb-xl-5">
+            Muzea
+        </h2>
+    </div>
+
+    {% partial "_swiper/scrollable" partial="_post/card-museum" items=this.theme.museums %}
+</div>
+
+<div class="container-fluid pt-5">
+    <div class="container-lg pt-xl-4">
+        <h2 class="h1 mb-3">
+            Infocentra
+        </h2>
+
+        <p class="mb-4 mb-xl-5 fs-2 text-dark">
+            Informační centra Správy KRNAP nabízejí návštěvníkům Krkonoš nejen komplexní informace o Krkonošském
+            národním parku, ale i o možnostech výletů za zajímavostmi, krásami a pozoruhodnostmi našich nejvyšších hor.
+        </p>
+    </div>
+
+    {% partial "_swiper/scrollable" partial="_post/card" items=this.theme.infocenters %}
+</div>
+
+<div class="py-5 border-1 border-bottom border-light">
+    <div class="py-xl-4">
+        {% partial "map" %}
+    </div>
+</div>
