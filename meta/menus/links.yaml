@@ -1,36 +1,52 @@
 items:
     -
         title: 'Muzejní sbírky'
+        nesting: null
         type: url
         url: /
         code: ''
+        reference: null
+        cmsPage: null
+        replace: null
         viewBag:
             isHidden: '0'
             cssClass: ''
             isExternal: '0'
     -
         title: E-shop
+        nesting: null
         type: url
         url: /
         code: ''
+        reference: null
+        cmsPage: null
+        replace: null
         viewBag:
             isHidden: '0'
             cssClass: ''
             isExternal: '0'
     -
         title: Knihovna
+        nesting: null
         type: url
         url: /
         code: ''
+        reference: null
+        cmsPage: null
+        replace: null
         viewBag:
             isHidden: '0'
             cssClass: ''
             isExternal: '0'
     -
         title: 'Správa KRNAP'
+        nesting: null
         type: url
         url: /
         code: ''
+        reference: null
+        cmsPage: null
+        replace: null
         viewBag:
             isHidden: '0'
             cssClass: ''
@@ -50,13 +66,9 @@ items:
             isExternal: '0'
     -
         title: GDPR
-        nesting: null
-        type: entry-lzaplata_pages
-        url: null
+        type: url
+        url: /
         code: ''
-        reference: '19'
-        cmsPage: stranka
-        replace: null
         viewBag:
             isHidden: '0'
             cssClass: ''
