@@ -78,7 +78,7 @@ form:
                             label: Název
                             type: text
                             span: left
-                        link:
+                        url:
                             label: Odkaz
                             type: pagefinder
                             span: right
@@ -109,7 +109,7 @@ form:
                             label: Název
                             type: text
                             span: left
-                        link:
+                        url:
                             label: Odkaz
                             type: pagefinder
                             span: right

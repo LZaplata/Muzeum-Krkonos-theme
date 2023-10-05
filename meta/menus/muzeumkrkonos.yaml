@@ -14,9 +14,143 @@ items:
             isExternal: '1'
     -
         title: 'Pro badatele'
+        nesting: null
         type: page
+        url: null
         code: ''
         reference: '2'
+        cmsPage: page-muzeum-krkonos
+        replace: null
+        viewBag:
+            isHidden: '0'
+            cssClass: ''
+            isExternal: '0'
+    -
+        title: 'Pro rodiny s dětmi'
+        nesting: null
+        type: page
+        url: null
+        code: ''
+        reference: '4'
+        cmsPage: page-muzeum-krkonos
+        replace: null
+        viewBag:
+            isHidden: '0'
+            cssClass: ''
+            isExternal: '0'
+    -
+        title: 'Pro školy'
+        nesting: null
+        type: page
+        url: null
+        code: ''
+        reference: '5'
+        cmsPage: page-muzeum-krkonos
+        replace: null
+        viewBag:
+            isHidden: '0'
+            cssClass: ''
+            isExternal: '0'
+    -
+        title: 'Pro skupiny'
+        nesting: null
+        type: page
+        url: null
+        code: ''
+        reference: '6'
+        cmsPage: page-muzeum-krkonos
+        replace: null
+        viewBag:
+            isHidden: '0'
+            cssClass: ''
+            isExternal: '0'
+    -
+        title: Historie
+        nesting: null
+        type: page
+        url: null
+        code: ''
+        reference: '7'
+        cmsPage: page-muzeum-krkonos
+        replace: null
+        viewBag:
+            isHidden: '0'
+            cssClass: ''
+            isExternal: '0'
+    -
+        title: Expozice
+        nesting: null
+        type: page
+        url: null
+        code: ''
+        reference: '8'
+        cmsPage: page-muzeum-krkonos
+        replace: null
+        viewBag:
+            isHidden: '0'
+            cssClass: ''
+            isExternal: '0'
+    -
+        title: 'Dočasné výstavy'
+        nesting: null
+        type: page
+        url: null
+        code: ''
+        reference: '9'
+        cmsPage: page-muzeum-krkonos
+        replace: null
+        viewBag:
+            isHidden: '0'
+            cssClass: ''
+            isExternal: '0'
+    -
+        title: Akce
+        nesting: null
+        type: url
+        url: /
+        code: ''
+        reference: null
+        cmsPage: null
+        replace: null
+        viewBag:
+            isHidden: '0'
+            cssClass: ''
+            isExternal: '0'
+    -
+        title: Fotogalerie
+        type: page
+        code: ''
+        reference: '10'
+        cmsPage: page-muzeum-krkonos
+        viewBag:
+            isHidden: '0'
+            cssClass: ''
+            isExternal: '0'
+    -
+        title: 'Mapa muzea'
+        type: page
+        code: ''
+        reference: '11'
+        cmsPage: page-muzeum-krkonos
+        viewBag:
+            isHidden: '0'
+            cssClass: ''
+            isExternal: '0'
+    -
+        title: 'Muzejní kavárna'
+        type: page
+        code: ''
+        reference: '12'
+        cmsPage: page-muzeum-krkonos
+        viewBag:
+            isHidden: '0'
+            cssClass: ''
+            isExternal: '0'
+    -
+        title: Kontakty
+        type: page
+        code: ''
+        reference: '13'
         cmsPage: page-muzeum-krkonos
         viewBag:
             isHidden: '0'

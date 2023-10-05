@@ -26,12 +26,12 @@ offcanvasCollapse.addEventListener("hide.bs.collapse", event => {
 
 /*************** END CORE FUNCTION **************/
 
-lightGallery(document.getElementById("gallery"), {
-    selector: ".swiper-image",
-    plugins: [lgZoom, lgThumbnail],
-    speed: 500,
-    galleryId: 1,
-});
+// lightGallery(document.getElementById("gallery"), {
+//     selector: ".swiper-image",
+//     plugins: [lgZoom, lgThumbnail],
+//     speed: 500,
+//     galleryId: 1,
+// });
 
 var sliderSwiper = new Swiper(".slider-swiper", {
     navigation: {

@@ -311,6 +311,18 @@ $content-text-table-head-bg:            $gray-300;
 $content-text-table-head-font-size:     $h3-font-size;
 $content-text-table-body-font-size:     $font-size-base;
 
+$breadcrumb-margin-bottom:              0;
+$breadcrumb-divider:                    "-";
+$breadcrumb-divider-color:              $primary;
+$breadcrumb-font-size:                  $font-size-sm;
+$breadcrumb-font-weight:                $font-weight-medium;
+$breadcrumb-active-color:               $gray-500;
+$breadcrumb-link-color:                 $primary;
+$breadcrumb-link-underline-color:       $primary;
+$breadcrumb-link-hover-color:           $gray-500;
+$breadcrumb-link-hover-underline-color: $primary;
+$breadcrumb-home-link-font-size:        $h2-font-size;
+
 // 3. Include remainder of required Bootstrap stylesheets
 @import "~bootstrap/scss/variables";
 @import "~bootstrap/scss/variables-dark";
@@ -341,6 +353,7 @@ $content-text-table-body-font-size:     $font-size-base;
 @import "~bootstrap/scss/badge";
 @import "~bootstrap/scss/modal";
 @import "~bootstrap/scss/tables";
+@import "~bootstrap/scss/breadcrumb";
 
 // 7. Optionally include utilities API last to generate classes based on the Sass map in `_utilities.scss`
 @import "~bootstrap/scss/utilities/api";
