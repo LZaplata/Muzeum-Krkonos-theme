@@ -105,53 +105,62 @@ items:
             isExternal: '0'
     -
         title: Akce
-        nesting: null
-        type: url
-        url: /
-        code: ''
-        reference: null
-        cmsPage: null
-        replace: null
+        type: page
+        code: events
+        reference: '14'
+        cmsPage: page-muzeum-krkonos
         viewBag:
             isHidden: '0'
             cssClass: ''
             isExternal: '0'
     -
         title: Fotogalerie
+        nesting: null
         type: page
+        url: null
         code: ''
         reference: '10'
         cmsPage: page-muzeum-krkonos
+        replace: null
         viewBag:
             isHidden: '0'
             cssClass: ''
             isExternal: '0'
     -
         title: 'Mapa muzea'
+        nesting: null
         type: page
+        url: null
         code: ''
         reference: '11'
         cmsPage: page-muzeum-krkonos
+        replace: null
         viewBag:
             isHidden: '0'
             cssClass: ''
             isExternal: '0'
     -
         title: 'Muzejní kavárna'
+        nesting: null
         type: page
+        url: null
         code: ''
         reference: '12'
         cmsPage: page-muzeum-krkonos
+        replace: null
         viewBag:
             isHidden: '0'
             cssClass: ''
             isExternal: '0'
     -
         title: Kontakty
+        nesting: null
         type: page
+        url: null
         code: ''
         reference: '13'
         cmsPage: page-muzeum-krkonos
+        replace: null
         viewBag:
             isHidden: '0'
             cssClass: ''

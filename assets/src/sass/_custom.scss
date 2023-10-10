@@ -43,6 +43,7 @@ $font-size-sm:                          .75rem;     // 12px
 $font-sizes: (
     2:                                  1.25rem,        // 20px
     4:                                  .9375rem,       // 15px
+    5:                                  0.875rem,       // 13px
     6:                                  $font-size-sm,  // 12px
 );
 
@@ -254,6 +255,13 @@ $post-card-title-font-size:                 $h3-font-size;
 $post-card-title-font-weight:               $font-weight-medium;
 $post-card-title-underline-color:           transparent;
 $post-card-hover-title-underline-color:     $primary;
+
+$post-row-image-overlay-bg:                 $post-card-image-overlay-bg;
+$post-row-image-overlay-icon-font-size:     $post-card-image-overlay-icon-font-size;
+$post-row-title-font-size:                  map-get($font-sizes, 2);
+$post-row-title-font-weight:                $font-weight-bold;
+$post-row-title-underline-color:            $post-card-title-underline-color;
+$post-row-hover-title-underline-color:      $post-card-hover-title-underline-color;
 
 $post-font-weight-bold:                 $font-weight-bold;
 

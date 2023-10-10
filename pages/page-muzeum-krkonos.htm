@@ -49,6 +49,12 @@ code = "muzeumkrkonos"
                             {% endif %}
                         </div>
                     {% endfor %}
+
+                    {% if page.id == "akce" %}
+                        <div class="content content-events">
+                            {% component "events" %}
+                        </div>
+                    {% endif %}
                 </div>
             </div>
         </div>
