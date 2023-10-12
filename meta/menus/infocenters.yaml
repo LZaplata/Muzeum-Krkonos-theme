@@ -2,37 +2,37 @@ items:
     -
         title: 'Infocentrum Vrchlabí'
         type: url
-        url: /
+        url: 'https://www.krnap.cz/navstevnici/infocentra/informacni-centrum-vrchlabi/'
         code: ''
         viewBag:
             isHidden: '0'
             cssClass: ''
-            isExternal: '0'
+            isExternal: '1'
     -
         title: 'Infocentrum Špindlerův Mlýn'
         type: url
-        url: /
+        url: 'https://www.krnap.cz/navstevnici/infocentra/informacni-centrum-spindleruv-mlyn/'
         code: ''
         viewBag:
             isHidden: '0'
             cssClass: ''
-            isExternal: '0'
+            isExternal: '1'
     -
         title: 'Infocentrum Pec pod Sněžkou'
         type: url
-        url: /
+        url: 'https://www.krnap.cz/navstevnici/infocentra/informacni-centrum-pec-pod-snezkou/'
         code: ''
         viewBag:
             isHidden: '0'
             cssClass: ''
-            isExternal: '0'
+            isExternal: '1'
     -
         title: 'Infocentrum Harrachov'
         type: url
-        url: /
+        url: 'https://www.krnap.cz/navstevnici/infocentra/informacni-centrum-harrachov/'
         code: ''
         viewBag:
             isHidden: '0'
             cssClass: ''
-            isExternal: '0'
+            isExternal: '1'
 name: Infocenters

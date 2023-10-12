@@ -31,10 +31,16 @@
                                         {{ this.theme.museums_menu_text }}
                                     </p>
                                 {% endif %}
+
+                                {% if item.code == "infocenters" and this.theme.infocenters_menu_text %}
+                                    <p class="mb-0">
+                                        {{ this.theme.infocenters_menu_text }}
+                                    </p>
+                                {% endif %}
                             </div>
                         </div>
 
-                        <ul class="nav flex-column">
+                        <ul class="nav flex-column align-self-center">
                             {% partial __SELF__ ~ "::items" items=item.items level=2 %}
                         </ul>
 

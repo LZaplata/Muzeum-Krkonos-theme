@@ -19,7 +19,7 @@ items:
                 type: page
                 url: null
                 code: ''
-                reference: '2'
+                reference: '1'
                 cmsPage: page-muzeum-krkonos
                 replace: null
                 viewBag:
@@ -28,19 +28,22 @@ items:
                     isExternal: '0'
             -
                 title: 'Krkonošské muzeum Vrchlabí'
-                type: page
+                nesting: null
+                type: url
+                url: 'https://www.krnap.cz/navstevnici/muzea/krkonosske-muzeum-ve-vrchlabi-ctyri-historicke-domky/'
                 code: ''
-                reference: '1'
-                cmsPage: page
+                reference: null
+                cmsPage: null
+                replace: null
                 viewBag:
                     isHidden: '0'
                     cssClass: ''
-                    isExternal: '0'
+                    isExternal: '1'
             -
                 title: 'Krkonošské muzeum Jilemnice'
                 nesting: null
-                type: header
-                url: null
+                type: url
+                url: 'https://www.krnap.cz/navstevnici/muzea/krkonosske-muzeum-jilemnice/'
                 code: ''
                 reference: null
                 cmsPage: null
@@ -48,12 +51,12 @@ items:
                 viewBag:
                     isHidden: '0'
                     cssClass: ''
-                    isExternal: '0'
+                    isExternal: '1'
             -
                 title: 'Památník zapadlých vlastenců Paseky nad Jizerou'
                 nesting: null
-                type: header
-                url: null
+                type: url
+                url: 'https://www.krnap.cz/navstevnici/muzea/pamatnik-zapadlych-vlastencu-paseky-nad-jizerou/'
                 code: ''
                 reference: null
                 cmsPage: null
@@ -61,12 +64,12 @@ items:
                 viewBag:
                     isHidden: '0'
                     cssClass: ''
-                    isExternal: '0'
+                    isExternal: '1'
             -
                 title: 'Krkonošské muzeum Šindelka Harrachov'
                 nesting: null
                 type: url
-                url: /
+                url: 'https://www.krnap.cz/navstevnici/muzea/expozice-sindelka-harrachov/'
                 code: ''
                 reference: null
                 cmsPage: null
@@ -74,12 +77,12 @@ items:
                 viewBag:
                     isHidden: '0'
                     cssClass: ''
-                    isExternal: '0'
+                    isExternal: '1'
             -
                 title: 'Expozice Vápenka Albeřice'
                 nesting: null
                 type: url
-                url: /
+                url: 'https://www.krnap.cz/navstevnici/muzea/muzeum-vapenka/'
                 code: ''
                 reference: null
                 cmsPage: null
@@ -87,20 +90,68 @@ items:
                 viewBag:
                     isHidden: '0'
                     cssClass: ''
-                    isExternal: '0'
+                    isExternal: '1'
     -
         title: Infocentra
-        nesting: null
         type: header
-        url: null
-        code: ''
-        reference: null
-        cmsPage: null
-        replace: null
+        code: infocenters
         viewBag:
             isHidden: '0'
             cssClass: ''
             isExternal: '0'
+        items:
+            -
+                title: 'Infocentrum Vrchlabí'
+                nesting: null
+                type: url
+                url: 'https://www.krnap.cz/navstevnici/infocentra/informacni-centrum-vrchlabi/'
+                code: ''
+                reference: null
+                cmsPage: null
+                replace: null
+                viewBag:
+                    isHidden: '0'
+                    cssClass: ''
+                    isExternal: '1'
+            -
+                title: 'Infocentrum Špindlerův Mlýn'
+                nesting: null
+                type: url
+                url: 'https://www.krnap.cz/navstevnici/infocentra/informacni-centrum-spindleruv-mlyn/'
+                code: ''
+                reference: null
+                cmsPage: null
+                replace: null
+                viewBag:
+                    isHidden: '0'
+                    cssClass: ''
+                    isExternal: '1'
+            -
+                title: 'Infocentrum Harrachov'
+                nesting: null
+                type: url
+                url: 'https://www.krnap.cz/navstevnici/infocentra/informacni-centrum-harrachov/'
+                code: ''
+                reference: null
+                cmsPage: null
+                replace: null
+                viewBag:
+                    isHidden: '0'
+                    cssClass: ''
+                    isExternal: '1'
+            -
+                title: 'Informační centrum Pec pod Sněžkou'
+                nesting: null
+                type: url
+                url: 'https://www.krnap.cz/navstevnici/infocentra/informacni-centrum-pec-pod-snezkou/'
+                code: ''
+                reference: null
+                cmsPage: null
+                replace: null
+                viewBag:
+                    isHidden: '0'
+                    cssClass: ''
+                    isExternal: '1'
     -
         title: Ekocentrum
         nesting: null

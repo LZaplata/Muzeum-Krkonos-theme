@@ -1,5 +1,5 @@
 <div class="post post-card">
-    <a href="{{ item.url|link }}" class="position-relative d-flex flex-column gap-4" {% if "krnap.cz" in item.url %}target="_blank"{% endif %}>
+    <a href="{{ item.url }}" class="position-relative d-flex flex-column gap-3" {% if "krnap.cz" in item.url %}target="_blank"{% endif %}>
         {% if image %}
             <p class="img mb-0 position-relative overflow-hidden">
                 {% if image.path %}
@@ -14,10 +14,18 @@
             </p>
         {% endif %}
 
-        <h3 class="title mb-0 d-flex align-items-baseline">
-            <img src="{{ ['assets/images/icons/', key + 1, '.svg']|join|theme }}" alt="{{ key + 1 }}" class="me-3">
+    {#    <p class="date fs-13 mb-0 mt-3 d-flex align-items-center">#}
+    {#        <img src="{{ 'assets/images/icons/calendar-blank.svg'|theme }}" alt="calendar" class="me-2 opacity-55">#}
 
+    {#        {{ post.published_at|date("j. n. Y") }}#}
+    {#    </p>#}
+
+        <h3 class="title mb-0">
             {{ item.title }}
         </h3>
+
+    {#    <div class="excerpt mt-2 fs-13 ls-n02 transition">#}
+    {#        {{ post.excerpt|raw }}#}
+    {#    </div>#}
     </a>
 </div>

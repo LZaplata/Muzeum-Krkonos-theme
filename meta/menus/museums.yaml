@@ -1,9 +1,13 @@
 items:
     -
         title: 'Muzeum Krkonoš'
-        type: url
-        url: /
+        nesting: null
+        type: page
+        url: null
         code: ''
+        reference: '1'
+        cmsPage: page-muzeum-krkonos
+        replace: null
         viewBag:
             isHidden: '0'
             cssClass: ''
@@ -11,46 +15,46 @@ items:
     -
         title: 'Krkonošské muzeum Vrchlabí'
         type: url
-        url: /
+        url: 'https://www.krnap.cz/navstevnici/muzea/krkonosske-muzeum-ve-vrchlabi-ctyri-historicke-domky/'
         code: ''
         viewBag:
             isHidden: '0'
             cssClass: ''
-            isExternal: '0'
+            isExternal: '1'
     -
         title: 'Krkonošské muzeum Jilemnice'
         type: url
-        url: /
+        url: 'https://www.krnap.cz/navstevnici/muzea/krkonosske-muzeum-jilemnice/'
         code: ''
         viewBag:
             isHidden: '0'
             cssClass: ''
-            isExternal: '0'
+            isExternal: '1'
     -
         title: 'Památník zapadlých vlastenců Paseky'
         type: url
-        url: /
+        url: 'https://www.krnap.cz/navstevnici/muzea/pamatnik-zapadlych-vlastencu-paseky-nad-jizerou/'
         code: ''
         viewBag:
             isHidden: '0'
             cssClass: ''
-            isExternal: '0'
+            isExternal: '1'
     -
         title: 'Krkonošské muzeum Šindelka Harrachov'
         type: url
-        url: /
+        url: 'https://www.krnap.cz/navstevnici/muzea/expozice-sindelka-harrachov/'
         code: ''
         viewBag:
             isHidden: '0'
             cssClass: ''
-            isExternal: '0'
+            isExternal: '1'
     -
         title: 'Expozice Vápenka Albeřice'
         type: url
-        url: /
+        url: 'https://www.krnap.cz/navstevnici/muzea/muzeum-vapenka/'
         code: ''
         viewBag:
             isHidden: '0'
             cssClass: ''
-            isExternal: '0'
+            isExternal: '1'
 name: Museums
