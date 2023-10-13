@@ -27,10 +27,10 @@
                 <span>
                     <i class="ph ph-calendar"></i>
 
-                    {{ item.start|date("j. n. Y") }}
+                    {{ item.start|date("j. n. Y", "Europe/Prague") }}
 
                     {% if item.end and item.start|date("Ymd") != item.end|date("Ymd") %}
-                        - {{ item.end|date("j. n. Y") }}
+                        - {{ item.end|date("j. n. Y", "Europe/Prague") }}
                     {% endif %}
                 </span>
 
@@ -38,7 +38,7 @@
                     <span>
                         <i class="ph ph-clock"></i>
 
-                        {{ item.start|date("H:i") }}
+                        {{ item.start|date("H:i", "Europe/Prague") }}
                     </span>
                 {% endif %}
             </p>

@@ -31,10 +31,10 @@
                 <span>
                     <i class="ph ph-calendar"></i>
 
-                    {{ event.datumZacatkuAkce|date("j. n. Y") }}
+                    {{ event.datumZacatkuAkce|date("j. n. Y", "Europe/Prague") }}
 
                     {% if event.datumKonceAkce and event.datumZacatkuAkce|date("Ymd") != event.datumKonceAkce|date("Ymd") %}
-                        - {{ event.datumKonceAkce|date("j. n. Y") }}
+                        - {{ event.datumKonceAkce|date("j. n. Y", "Europe/Prague") }}
                     {% endif %}
                 </span>
 
@@ -42,7 +42,7 @@
                     <span>
                         <i class="ph ph-clock"></i>
 
-                        {{ event.datumZacatkuAkce|date("H:i") }}
+                        {{ event.datumZacatkuAkce|date("H:i", "Europe/Prague") }}
                     </span>
                 {% endif %}
             </p>
