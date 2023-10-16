@@ -93,8 +93,13 @@ items:
                     isExternal: '1'
     -
         title: Infocentra
+        nesting: null
         type: header
+        url: null
         code: infocenters
+        reference: null
+        cmsPage: null
+        replace: null
         viewBag:
             isHidden: '0'
             cssClass: ''
@@ -167,13 +172,10 @@ items:
             isExternal: '0'
     -
         title: FAQ
-        nesting: null
-        type: header
-        url: null
+        type: page
         code: ''
-        reference: null
-        cmsPage: null
-        replace: null
+        reference: '15'
+        cmsPage: page
         viewBag:
             isHidden: '0'
             cssClass: ''

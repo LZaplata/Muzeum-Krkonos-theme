@@ -332,6 +332,28 @@ $breadcrumb-link-hover-color:           $gray-500;
 $breadcrumb-link-hover-underline-color: $primary;
 $breadcrumb-home-link-font-size:        $h2-font-size;
 
+$accordion-button-color:                $primary;
+$accordion-button-padding-x:            0;
+$accordion-button-padding-y:            1rem;
+$accordion-button-active-bg:            transparent;
+$accordion-button-active-color:         $primary;
+$accordion-button-focus-border-color:   transparent;
+$accordion-button-focus-box-shadow:     none;
+$accordion-button-icon:                 url("../images/icons/plus.svg");
+$accordion-button-active-icon:          url("../images/icons/minus.svg");
+$accordion-border-width:                1px;
+$accordion-border-color:                $gray-300;
+$accordion-border-radius:               0;
+
+$faq-accordion-item-border-x:           0;
+$faq-accordion-button-font-size:        map-get($font-sizes, 2);
+$faq-accordion-button-font-weight:      $font-weight-medium;
+$faq-accordion-number-font-size:        map-get($font-sizes, 4);
+$faq-accordion-number-font-weight:      $font-weight-medium;
+$faq-accordion-number-color:            $primary;
+$faq-accordion-number-size:             40px;
+$faq-accordion-number-bg:               $gray-300;
+
 // 3. Include remainder of required Bootstrap stylesheets
 @import "~bootstrap/scss/variables";
 @import "~bootstrap/scss/variables-dark";
@@ -363,6 +385,7 @@ $breadcrumb-home-link-font-size:        $h2-font-size;
 @import "~bootstrap/scss/modal";
 @import "~bootstrap/scss/tables";
 @import "~bootstrap/scss/breadcrumb";
+@import "~bootstrap/scss/accordion";
 
 // 7. Optionally include utilities API last to generate classes based on the Sass map in `_utilities.scss`
 @import "~bootstrap/scss/utilities/api";

@@ -1,6 +1,7 @@
 url = "/:slug*"
 layout = "default"
 title = "Page"
+seoOptionsMetaTitle = "{{ page.title }}"
 
 [page]
 column = "slug"
@@ -12,17 +13,28 @@ imagesPerPage = 16
 [staticMenu leftmenu]
 
 [breadcrumbs]
+
+[collection faq]
+handle = "FAQ\Question"
 ==
-<div class="container-fluid py-5" id="page">
+{{ leftmenu.resetMenu("leftmenu") }}
+
+<div class="container-fluid mt-4">
+    <div class="container-lg">
+        {% component "breadcrumbs" %}
+    </div>
+</div>
+
+<div class="container-fluid py-5 border-1 border-bottom border-light" id="page">
     <div class="container-lg">
         <div class="row g-5">
-            <div class="sidebar d-none d-xl-block col-xl-3">
-                {{ leftmenu.resetMenu("leftmenu") }}
+            {% if leftmenu.menuItems is not null %}
+                <div class="sidebar d-none d-xl-block col-xl-3">
+                    {% component "leftmenu" code="code" %}
+                </div>
+            {% endif %}
 
-                {% component "leftmenu" code="code" %}
-            </div>
-
-            <div class="col col-xl-9">
+            <div class="col {% if leftmenu.menuItems is not null %}col-xl-9{% endif %}">
                 <h1 class="mb-4">
                     {{ page.title }}
                 </h1>
@@ -40,6 +52,8 @@ imagesPerPage = 16
                                 {{ content.text|raw|bootstrap }}
                             {% elseif content.type == "gallery" %}
                                 {% component "gallery" gallery=content.gallery.slug %}
+                            {% elseif content.type == "faq" %}
+                                {% partial "_accordion/faq" items=faq %}
                             {% endif %}
                         </div>
                     {% endfor %}
