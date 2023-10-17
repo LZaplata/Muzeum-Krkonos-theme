@@ -2,7 +2,7 @@ items:
     -
         title: 'Muzejní sbírky'
         type: url
-        url: 'https://sbirky.krnap.cz/'
+        url: 'http://sbirky.krnap.cz/'
         code: ''
         viewBag:
             isHidden: '0'
