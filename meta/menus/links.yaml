@@ -1,56 +1,40 @@
 items:
     -
         title: 'Muzejní sbírky'
-        nesting: null
         type: url
-        url: /
+        url: 'https://sbirky.krnap.cz/vademecum/'
         code: ''
-        reference: null
-        cmsPage: null
-        replace: null
         viewBag:
             isHidden: '0'
             cssClass: ''
-            isExternal: '0'
+            isExternal: '1'
     -
         title: E-shop
-        nesting: null
         type: url
-        url: /
+        url: 'https://eshop.krnap.cz/'
         code: ''
-        reference: null
-        cmsPage: null
-        replace: null
         viewBag:
             isHidden: '0'
             cssClass: ''
-            isExternal: '0'
+            isExternal: '1'
     -
         title: Knihovna
-        nesting: null
         type: url
-        url: /
+        url: 'https://tritius.krnap.cz/'
         code: ''
-        reference: null
-        cmsPage: null
-        replace: null
         viewBag:
             isHidden: '0'
             cssClass: ''
-            isExternal: '0'
+            isExternal: '1'
     -
         title: 'Správa KRNAP'
-        nesting: null
         type: url
-        url: /
+        url: 'https://www.krnap.cz/'
         code: ''
-        reference: null
-        cmsPage: null
-        replace: null
         viewBag:
             isHidden: '0'
             cssClass: ''
-            isExternal: '0'
+            isExternal: '1'
     -
         title: 'Nastavení cookies'
         nesting: null
@@ -66,9 +50,13 @@ items:
             isExternal: '0'
     -
         title: GDPR
+        nesting: null
         type: url
         url: /
         code: ''
+        reference: null
+        cmsPage: null
+        replace: null
         viewBag:
             isHidden: '0'
             cssClass: ''
