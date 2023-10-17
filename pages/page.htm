@@ -1,11 +1,11 @@
-url = "/:slug*"
+url = "/:fullslug*"
 layout = "default"
 title = "Page"
 seoOptionsMetaTitle = "{{ page.title }}"
 
 [page]
-column = "slug"
-value = "{{ :slug }}"
+column = "fullslug"
+value = "{{ :fullslug }}"
 
 [Gallery gallery]
 imagesPerPage = 16
@@ -16,9 +16,21 @@ imagesPerPage = 16
 
 [collection faq]
 handle = "FAQ\Question"
-==
-{{ leftmenu.resetMenu("leftmenu") }}
 
+[events]
+page = "{{ :page }}"
+perPage = 10
+eventPage = "detail-akce-muzeum-krkonos"
+==
+<?php
+function onEnd()
+{
+    $code = $this["page"]->menu;
+
+    $this["leftmenu"]->resetMenu($code);
+}
+?>
+==
 <div class="container-fluid mt-4">
     <div class="container-lg">
         {% component "breadcrumbs" %}
@@ -30,7 +42,7 @@ handle = "FAQ\Question"
         <div class="row g-5">
             {% if leftmenu.menuItems is not null %}
                 <div class="sidebar d-none d-xl-block col-xl-3">
-                    {% component "leftmenu" code="code" %}
+                    {% component "leftmenu" %}
                 </div>
             {% endif %}
 
@@ -57,6 +69,12 @@ handle = "FAQ\Question"
                             {% endif %}
                         </div>
                     {% endfor %}
+
+                    {% if page.id == "akce" %}
+                        <div class="content content-events">
+                            {% component "events" %}
+                        </div>
+                    {% endif %}
                 </div>
             </div>
         </div>

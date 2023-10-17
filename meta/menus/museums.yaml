@@ -1,58 +1,75 @@
 items:
     -
         title: 'Muzeum Krkonoš'
-        nesting: null
         type: page
-        url: null
         code: ''
         reference: '1'
-        cmsPage: page-muzeum-krkonos
-        replace: null
+        cmsPage: page
         viewBag:
             isHidden: '0'
             cssClass: ''
             isExternal: '0'
     -
         title: 'Krkonošské muzeum Vrchlabí'
+        nesting: null
         type: url
         url: 'https://www.krnap.cz/navstevnici/muzea/krkonosske-muzeum-ve-vrchlabi-ctyri-historicke-domky/'
         code: ''
+        reference: null
+        cmsPage: null
+        replace: null
         viewBag:
             isHidden: '0'
             cssClass: ''
             isExternal: '1'
     -
         title: 'Krkonošské muzeum Jilemnice'
+        nesting: null
         type: url
         url: 'https://www.krnap.cz/navstevnici/muzea/krkonosske-muzeum-jilemnice/'
         code: ''
+        reference: null
+        cmsPage: null
+        replace: null
         viewBag:
             isHidden: '0'
             cssClass: ''
             isExternal: '1'
     -
         title: 'Památník zapadlých vlastenců Paseky'
+        nesting: null
         type: url
         url: 'https://www.krnap.cz/navstevnici/muzea/pamatnik-zapadlych-vlastencu-paseky-nad-jizerou/'
         code: ''
+        reference: null
+        cmsPage: null
+        replace: null
         viewBag:
             isHidden: '0'
             cssClass: ''
             isExternal: '1'
     -
         title: 'Krkonošské muzeum Šindelka Harrachov'
+        nesting: null
         type: url
         url: 'https://www.krnap.cz/navstevnici/muzea/expozice-sindelka-harrachov/'
         code: ''
+        reference: null
+        cmsPage: null
+        replace: null
         viewBag:
             isHidden: '0'
             cssClass: ''
             isExternal: '1'
     -
         title: 'Expozice Vápenka Albeřice'
+        nesting: null
         type: url
         url: 'https://www.krnap.cz/navstevnici/muzea/muzeum-vapenka/'
         code: ''
+        reference: null
+        cmsPage: null
+        replace: null
         viewBag:
             isHidden: '0'
             cssClass: ''

@@ -19,7 +19,7 @@ items:
         url: null
         code: ''
         reference: '2'
-        cmsPage: page-muzeum-krkonos
+        cmsPage: page
         replace: null
         viewBag:
             isHidden: '0'
@@ -32,7 +32,7 @@ items:
         url: null
         code: ''
         reference: '4'
-        cmsPage: page-muzeum-krkonos
+        cmsPage: page
         replace: null
         viewBag:
             isHidden: '0'
@@ -45,7 +45,7 @@ items:
         url: null
         code: ''
         reference: '5'
-        cmsPage: page-muzeum-krkonos
+        cmsPage: page
         replace: null
         viewBag:
             isHidden: '0'
@@ -58,7 +58,7 @@ items:
         url: null
         code: ''
         reference: '6'
-        cmsPage: page-muzeum-krkonos
+        cmsPage: page
         replace: null
         viewBag:
             isHidden: '0'
@@ -71,7 +71,7 @@ items:
         url: null
         code: ''
         reference: '7'
-        cmsPage: page-muzeum-krkonos
+        cmsPage: page
         replace: null
         viewBag:
             isHidden: '0'
@@ -84,7 +84,7 @@ items:
         url: null
         code: ''
         reference: '8'
-        cmsPage: page-muzeum-krkonos
+        cmsPage: page
         replace: null
         viewBag:
             isHidden: '0'
@@ -97,7 +97,7 @@ items:
         url: null
         code: ''
         reference: '9'
-        cmsPage: page-muzeum-krkonos
+        cmsPage: page
         replace: null
         viewBag:
             isHidden: '0'
@@ -108,20 +108,17 @@ items:
         type: page
         code: events
         reference: '14'
-        cmsPage: page-muzeum-krkonos
+        cmsPage: page
         viewBag:
             isHidden: '0'
             cssClass: ''
             isExternal: '0'
     -
         title: Fotogalerie
-        nesting: null
         type: page
-        url: null
         code: ''
         reference: '10'
-        cmsPage: page-muzeum-krkonos
-        replace: null
+        cmsPage: page
         viewBag:
             isHidden: '0'
             cssClass: ''
@@ -133,7 +130,7 @@ items:
         url: null
         code: ''
         reference: '11'
-        cmsPage: page-muzeum-krkonos
+        cmsPage: page
         replace: null
         viewBag:
             isHidden: '0'
@@ -146,7 +143,7 @@ items:
         url: null
         code: ''
         reference: '12'
-        cmsPage: page-muzeum-krkonos
+        cmsPage: page
         replace: null
         viewBag:
             isHidden: '0'
@@ -159,7 +156,7 @@ items:
         url: null
         code: ''
         reference: '13'
-        cmsPage: page-muzeum-krkonos
+        cmsPage: page
         replace: null
         viewBag:
             isHidden: '0'
