@@ -159,23 +159,23 @@ items:
                     isExternal: '1'
     -
         title: Ekocentrum
-        nesting: null
-        type: header
-        url: null
+        type: page
         code: ''
-        reference: null
-        cmsPage: null
-        replace: null
+        reference: '16'
+        cmsPage: page
         viewBag:
             isHidden: '0'
             cssClass: ''
             isExternal: '0'
     -
         title: FAQ
+        nesting: null
         type: page
+        url: null
         code: ''
         reference: '15'
         cmsPage: page
+        replace: null
         viewBag:
             isHidden: '0'
             cssClass: ''
