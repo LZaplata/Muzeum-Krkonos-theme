@@ -15,10 +15,13 @@ items:
         items:
             -
                 title: 'Muzeum Krkonoš'
+                nesting: null
                 type: page
+                url: null
                 code: ''
                 reference: '1'
                 cmsPage: page
+                replace: null
                 viewBag:
                     isHidden: '0'
                     cssClass: ''
@@ -156,10 +159,13 @@ items:
                     isExternal: '1'
     -
         title: Ekocentrum
+        nesting: null
         type: page
+        url: null
         code: ''
         reference: '16'
         cmsPage: page
+        replace: null
         viewBag:
             isHidden: '0'
             cssClass: ''
@@ -179,13 +185,10 @@ items:
             isExternal: '0'
     -
         title: Kontakty
-        nesting: null
         type: page
-        url: null
         code: ''
-        reference: '1'
+        reference: '21'
         cmsPage: page
-        replace: null
         viewBag:
             isHidden: '0'
             cssClass: ''
