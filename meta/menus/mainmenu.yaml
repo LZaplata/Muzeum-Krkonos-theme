@@ -187,7 +187,7 @@ items:
         title: Kontakty
         type: page
         code: ''
-        reference: '21'
+        reference: '20'
         cmsPage: page
         viewBag:
             isHidden: '0'
