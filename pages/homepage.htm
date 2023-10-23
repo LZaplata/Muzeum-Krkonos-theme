@@ -24,9 +24,15 @@ handle = "Partners\Partner"
         <h2 class="h1 mb-4 mb-xl-5">
             Muzea
         </h2>
-    </div>
 
-    {% partial "_swiper/scrollable" partial="_post/card-museum" items=this.theme.museums %}
+        <div class="row row-cols-1 gx-4 gy-5 row-cols-sm-2 row-cols-lg-3">
+            {% for key, item in this.theme.museums %}
+                <div class="col">
+                    {% partial "_post/card-museum" key=key item=item image=item.image %}
+                </div>
+            {% endfor %}
+        </div>
+    </div>
 </div>
 
 <div class="container-fluid pt-5">
@@ -39,9 +45,15 @@ handle = "Partners\Partner"
             Informační centra Správy KRNAP nabízejí návštěvníkům Krkonoš nejen komplexní informace o Krkonošském
             národním parku, ale i o možnostech výletů za zajímavostmi, krásami a pozoruhodnostmi našich nejvyšších hor.
         </p>
-    </div>
 
-    {% partial "_swiper/scrollable" partial="_post/card-infocenter" items=this.theme.infocenters %}
+        <div class="row row-cols-1 gx-4 gy-5 row-cols-sm-2 row-cols-lg-3 row-cols-xl-4">
+            {% for key, item in this.theme.infocenters %}
+                <div class="col">
+                    {% partial "_post/card-infocenter" key=key item=item image=item.image %}
+                </div>
+            {% endfor %}
+        </div>
+    </div>
 </div>
 
 <div class="py-5 border-1 border-bottom border-light">
