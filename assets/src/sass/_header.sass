@@ -9,7 +9,15 @@ header
 
     .nav
         &.root
+            gap: $nav-link-gap
+
             & > li
+                background-color: $nav-item-bg
+                transition: $transition-base
+                transition-delay: .5s
+                padding-left: $nav-item-padding-x
+                padding-right: $nav-item-padding-x
+
                 @if $nav-level-1-min-width
                     position: relative
 
@@ -44,6 +52,8 @@ header
                     transition: $transition-base
 
                 &:hover
+                    background-color: $nav-item-hover-bg
+
                     & > .submenu
                         max-height: $nav-level-1-max-height
                         transition: $transition-base

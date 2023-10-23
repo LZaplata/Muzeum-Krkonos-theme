@@ -20,6 +20,7 @@ $green-700:                             #0c3725;
 $gray-500:                              #707070;
 $gray-300:                              #EEEEEE;
 $gray-200:                              #E5E4E6;
+$gray-100:                              #f4f4f4;
 
 $primary:                               $black;
 $dark:                                  $gray-500;
@@ -45,6 +46,16 @@ $font-sizes: (
     4:                                  .9375rem,       // 15px
     5:                                  0.875rem,       // 13px
     6:                                  $font-size-sm,  // 12px
+);
+
+$spacer:                                1rem;
+$spacers: (
+    0:                                  0,
+    1:                                  $spacer * .25,
+    2:                                  $spacer * .5,
+    3:                                  $spacer,
+    4:                                  $spacer * 1.5,
+    5:                                  $spacer * 3,
 );
 
 $line-height-base:                      1.5;
@@ -90,6 +101,10 @@ $link-color:                            $primary;
 $link-hover-color:                      $black;
 $link-decoration:                       none;
 
+$nav-item-bg:                           $white;
+$nav-item-hover-bg:                     $gray-100;
+$nav-item-padding-x:                    1.5rem;
+
 $nav-link-color:                        $black;
 $nav-link-hover-color:                  $gray-500;
 $nav-link-after-height:                 0;        // 0 for turn off
@@ -97,13 +112,14 @@ $nav-link-padding-x:                    0;
 $nav-link-padding-y:                    0;
 $nav-link-font-weight:                  $font-weight-medium;
 $nav-link-font-size:                    map-get($font-sizes, 2);
+$nav-link-gap:                          0;
 $nav-link-submenu-toggler-color:        $black;
 $nav-link-submenu-toggler-font-size:    $font-size-sm;
 
 $nav-pills-link-active-color:           $primary;
 $nav-pills-link-active-bg:              transparent;
 
-$nav-level-1-bg:                        $white;
+$nav-level-1-bg:                        $gray-100;
 $nav-level-1-box-shadow:                0px 20px 20px rgba(34, 45, 50, 0.1);        // false for turn off
 $nav-level-1-max-height:                570px;
 $nav-level-1-min-width:                 false;      // false for fluid
