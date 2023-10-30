@@ -11,6 +11,15 @@ code = "mainmenu"
 [staticMenu footermenu]
 
 [sitePicker sitepicker]
+
+[blogPosts quicknews]
+pageNumber = "{{ :page }}"
+categoryFilter = "rychle-zpravy"
+postsPerPage = 1
+noPostsMessage = "No posts found"
+sortOrder = "published_at desc"
+categoryPage = "detail-akce-muzeum-krkonos"
+postPage = "detail-akce-muzeum-krkonos"
 ==
 <!DOCTYPE html>
 <html class="h-100" lang="en">
@@ -35,6 +44,8 @@ code = "mainmenu"
     </head>
 
     <body>
+        {% component "quicknews" %}
+
         {% partial "header" %}
 
         <main>
