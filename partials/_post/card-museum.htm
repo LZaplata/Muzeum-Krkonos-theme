@@ -1,6 +1,4 @@
 <div class="post post-card">
-    {{ dump(item) }}|
-
     <a href="{{ item.url|link }}" class="position-relative d-flex flex-column gap-4" {% if "krnap.cz" in item.url %}target="_blank"{% endif %}>
         {% if image %}
             <p class="img mb-0 position-relative overflow-hidden">
