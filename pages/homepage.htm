@@ -46,7 +46,7 @@ handle = "Partners\Partner"
             národním parku, ale i o možnostech výletů za zajímavostmi, krásami a pozoruhodnostmi našich nejvyšších hor.
         </p>
 
-        <div class="row row-cols-1 gx-4 gy-5 row-cols-sm-2 row-cols-lg-3 row-cols-xl-4">
+        <div class="row row-cols-1 gx-4 gy-5 row-cols-sm-2 row-cols-lg-3">
             {% for key, item in this.theme.infocenters %}
                 <div class="col">
                     {% partial "_post/card-infocenter" key=key item=item image=item.image %}
