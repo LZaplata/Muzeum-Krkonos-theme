@@ -106,53 +106,28 @@ items:
             isExternal: '0'
         items:
             -
-                title: 'Infocentrum Vrchlabí'
-                nesting: null
-                type: url
-                url: 'https://www.krnap.cz/navstevnici/infocentra/informacni-centrum-vrchlabi/'
-                code: ''
-                reference: null
-                cmsPage: null
-                replace: null
-                viewBag:
-                    isHidden: '0'
-                    cssClass: ''
-                    isExternal: '1'
-            -
-                title: 'Infocentrum Špindlerův Mlýn'
-                nesting: null
+                title: 'Informační centrum Špindlerův Mlýn'
                 type: url
                 url: 'https://www.krnap.cz/navstevnici/infocentra/informacni-centrum-spindleruv-mlyn/'
                 code: ''
-                reference: null
-                cmsPage: null
-                replace: null
                 viewBag:
                     isHidden: '0'
                     cssClass: ''
                     isExternal: '1'
             -
-                title: 'Infocentrum Harrachov'
-                nesting: null
+                title: 'Informační centrum Harrachov'
                 type: url
                 url: 'https://www.krnap.cz/navstevnici/infocentra/informacni-centrum-harrachov/'
                 code: ''
-                reference: null
-                cmsPage: null
-                replace: null
                 viewBag:
                     isHidden: '0'
                     cssClass: ''
                     isExternal: '1'
             -
                 title: 'Informační centrum Pec pod Sněžkou'
-                nesting: null
                 type: url
                 url: 'https://www.krnap.cz/navstevnici/infocentra/informacni-centrum-pec-pod-snezkou/'
                 code: ''
-                reference: null
-                cmsPage: null
-                replace: null
                 viewBag:
                     isHidden: '0'
                     cssClass: ''
@@ -185,10 +160,13 @@ items:
             isExternal: '0'
     -
         title: Kontakty
+        nesting: null
         type: page
+        url: null
         code: ''
         reference: '20'
         cmsPage: page
+        replace: null
         viewBag:
             isHidden: '0'
             cssClass: ''
