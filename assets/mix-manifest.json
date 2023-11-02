@@ -12,6 +12,7 @@
     "/css/lg-thumbnail.css": "/css/lg-thumbnail.css",
     "/css/lg-zoom.css": "/css/lg-zoom.css",
     "/css/lightgallery.css": "/css/lightgallery.css",
+    "/css/icons-fill.css": "/css/icons-fill.css",
     "/css/icons.css": "/css/icons.css",
     "/fonts/lg.svg": "/fonts/lg.svg",
     "/fonts/lg.ttf": "/fonts/lg.ttf",
@@ -20,5 +21,9 @@
     "/css/Phosphor.svg": "/css/Phosphor.svg",
     "/css/Phosphor.ttf": "/css/Phosphor.ttf",
     "/css/Phosphor.woff": "/css/Phosphor.woff",
-    "/css/Phosphor.woff2": "/css/Phosphor.woff2"
+    "/css/Phosphor.woff2": "/css/Phosphor.woff2",
+    "/css/Phosphor-Fill.svg": "/css/Phosphor-Fill.svg",
+    "/css/Phosphor-Fill.ttf": "/css/Phosphor-Fill.ttf",
+    "/css/Phosphor-Fill.woff": "/css/Phosphor-Fill.woff",
+    "/css/Phosphor-Fill.woff2": "/css/Phosphor-Fill.woff2"
 }

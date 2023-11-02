@@ -10,6 +10,7 @@ mix.setPublicPath("assets/")
     .css("node_modules/lightgallery/css/lg-thumbnail.css", "css/")
     .css("node_modules/swiper/swiper-bundle.css", "css/")
     .css("node_modules/@phosphor-icons/web/src/regular/style.css", "css/icons.css")
+    .css("node_modules/@phosphor-icons/web/src/fill/style.css", "css/icons-fill.css")
     .js("assets/src/js/theme.js", "js/")
     .js("node_modules/bootstrap/dist/js/bootstrap.js", "js/")
     .js("node_modules/@popperjs/core/dist/esm/popper.js", "js/")
@@ -19,7 +20,8 @@ mix.setPublicPath("assets/")
     .js("node_modules/lightgallery/plugins/thumbnail/lg-thumbnail.min.js", "js/")
     .js("node_modules/swiper/swiper-bundle.js", "js/")
     .copyDirectory("node_modules/lightgallery/fonts", "assets/fonts/")
-    .copy("node_modules/@phosphor-icons/web/src/regular/Phosphor.*", "assets/css/")
+    .copy("node_modules/@phosphor-icons/web/src/regular/Phosphor*", "assets/css/")
+    .copy("node_modules/@phosphor-icons/web/src/fill/Phosphor*", "assets/css/")
     .browserSync({
         proxy: "localhost81/hucr/muzeumkrkonos.cz",
         files: [

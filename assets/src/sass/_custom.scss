@@ -32,6 +32,7 @@ $body-color:                            $black;
 $font-family-sans-serif:                "Space Grotesk", sans-serif;
 $font-family-base:                      $font-family-sans-serif;
 $font-family-icons:                     "Phosphor";
+$font-family-icons-fill:                "Phosphor-fill";
 
 $font-weight-bold:                      700;
 $font-weight-semibold:                  600;
@@ -257,10 +258,11 @@ $footer-nav-link-font-size:             map-get($font-sizes, 4);
 $footer-nav-link-hover-color:           $primary;
 $footer-nav-link-underline-height:      1px;        // 0 for turn off
 $footer-nav-link-underline-color:       $footer-nav-link-color;
-$footer-nav-link-before-content:        "▪";        // none for turn off
+$footer-nav-link-before-content:        "\ed1c";    // none for turn off
 $footer-nav-link-before-color:          $primary;
-$footer-nav-link-before-top:            2px;
-$footer-nav-link-before-font-size:      $font-size-sm;
+$footer-nav-link-before-top:            7px;
+$footer-nav-link-before-font-size:      5px;
+$footer-nav-link-before-font-family:    $font-family-icons-fill;
 
 $footer-heading-color:                  $headings-color;
 $footer-heading-font-weight:            $font-weight-medium;
