@@ -26,6 +26,159 @@ items:
                     isHidden: '0'
                     cssClass: ''
                     isExternal: '0'
+                items:
+                    -   title: Vstupenky
+                        type: url
+                        url: 'https://portal.colosseum.eu/tours?mrsid=313'
+                        code: ''
+                        viewBag:
+                            isHidden: '0'
+                            cssClass: ''
+                            isExternal: '1'
+                    -   title: 'Pro badatele'
+                        nesting: null
+                        type: page
+                        url: null
+                        code: ''
+                        reference: '2'
+                        cmsPage: page
+                        replace: null
+                        viewBag:
+                            isHidden: '0'
+                            cssClass: ''
+                            isExternal: '0'
+                    -   title: 'Pro rodiny s dětmi'
+                        nesting: null
+                        type: page
+                        url: null
+                        code: ''
+                        reference: '4'
+                        cmsPage: page
+                        replace: null
+                        viewBag:
+                            isHidden: '0'
+                            cssClass: ''
+                            isExternal: '0'
+                    -   title: 'Pro školy'
+                        nesting: null
+                        type: page
+                        url: null
+                        code: ''
+                        reference: '5'
+                        cmsPage: page
+                        replace: null
+                        viewBag:
+                            isHidden: '0'
+                            cssClass: ''
+                            isExternal: '0'
+                    -   title: 'Pro skupiny'
+                        nesting: null
+                        type: page
+                        url: null
+                        code: ''
+                        reference: '6'
+                        cmsPage: page
+                        replace: null
+                        viewBag:
+                            isHidden: '0'
+                            cssClass: ''
+                            isExternal: '0'
+                    -   title: Historie
+                        nesting: null
+                        type: page
+                        url: null
+                        code: ''
+                        reference: '7'
+                        cmsPage: page
+                        replace: null
+                        viewBag:
+                            isHidden: '0'
+                            cssClass: ''
+                            isExternal: '0'
+                    -   title: Expozice
+                        nesting: null
+                        type: page
+                        url: null
+                        code: ''
+                        reference: '8'
+                        cmsPage: page
+                        replace: null
+                        viewBag:
+                            isHidden: '0'
+                            cssClass: ''
+                            isExternal: '0'
+                    -   title: 'Dočasné výstavy'
+                        nesting: null
+                        type: page
+                        url: null
+                        code: ''
+                        reference: '9'
+                        cmsPage: page
+                        replace: null
+                        viewBag:
+                            isHidden: '0'
+                            cssClass: ''
+                            isExternal: '0'
+                    -   title: Akce
+                        nesting: null
+                        type: page
+                        url: null
+                        code: events
+                        reference: '14'
+                        cmsPage: page
+                        replace: null
+                        viewBag:
+                            isHidden: '0'
+                            cssClass: ''
+                            isExternal: '0'
+                    -   title: Fotogalerie
+                        nesting: null
+                        type: page
+                        url: null
+                        code: ''
+                        reference: '10'
+                        cmsPage: page
+                        replace: null
+                        viewBag:
+                            isHidden: '0'
+                            cssClass: ''
+                            isExternal: '0'
+                    -   title: 'Mapa muzea'
+                        nesting: null
+                        type: page
+                        url: null
+                        code: ''
+                        reference: '11'
+                        cmsPage: page
+                        replace: null
+                        viewBag:
+                            isHidden: '0'
+                            cssClass: ''
+                            isExternal: '0'
+                    -   title: 'Muzejní kavárna'
+                        nesting: null
+                        type: page
+                        url: null
+                        code: ''
+                        reference: '12'
+                        cmsPage: page
+                        replace: null
+                        viewBag:
+                            isHidden: '0'
+                            cssClass: ''
+                            isExternal: '0'
+                    -   title: Kontakty
+                        nesting: null
+                        type: page
+                        url: null
+                        code: ''
+                        reference: '13'
+                        cmsPage: page
+                        replace: null
+                        viewBag:
+                            isHidden: '0'
+                            cssClass: ''
+                            isExternal: '0'
             -
                 title: 'Krkonošské muzeum Vrchlabí'
                 nesting: null
