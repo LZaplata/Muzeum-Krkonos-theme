@@ -1,25 +1,48 @@
 .content
     &-text
+        color: $content-text-color
+
         *:last-child
             margin-bottom: 0
 
         p
             margin-bottom: $content-text-gap-base
-            color: $content-text-color
 
-            strong
-                font-weight: $content-text-strong-font-weight
+        strong
+            font-weight: $content-text-strong-font-weight
 
-            a
-                color: $content-text-link-color
-                font-weight: $content-text-link-font-weight
-                text-decoration: underline
-                text-decoration-color: $content-text-link-underline-color
-                transition: $transition-base
+        a
+            color: $content-text-link-color
+            font-weight: $content-text-link-font-weight
+            text-decoration: underline
+            text-decoration-color: $content-text-link-underline-color
+            transition: $transition-base
 
-                &:hover
-                    color: $content-text-link-hover-color
-                    text-decoration-color: $content-text-link-hover-underline-color
+            &:hover
+                color: $content-text-link-hover-color
+                text-decoration-color: $content-text-link-hover-underline-color
+
+        p + h2, ul + h2, ol + h2
+            margin-top: $content-text-gap-lg
+
+        p + h3, ul + h3, ol + h3
+            margin-top: $content-text-gap-lg
+
+        p + h4, ul + h4, ol + h4
+            margin-top: $content-text-gap-lg
+
+        p + h5, ul + h5, ol + h5
+            margin-top: $content-text-gap-lg
+
+        h2, h3, h4, h5
+            margin-bottom: $content-text-gap-base
+
+        ol, ul
+            li
+                margin-bottom: $content-text-gap-sm
+
+                &:first-child
+                    margin-top: $content-text-gap-sm
 
         .table-responsive
             margin-top: $content-text-gap-lg
