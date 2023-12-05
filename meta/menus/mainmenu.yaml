@@ -107,27 +107,39 @@ items:
         items:
             -
                 title: 'Informační centrum Špindlerův Mlýn'
+                nesting: null
                 type: url
                 url: 'https://www.krnap.cz/navstevnici/infocentra/informacni-centrum-spindleruv-mlyn/'
                 code: ''
+                reference: null
+                cmsPage: null
+                replace: null
                 viewBag:
                     isHidden: '0'
                     cssClass: ''
                     isExternal: '1'
             -
                 title: 'Informační centrum Harrachov'
+                nesting: null
                 type: url
                 url: 'https://www.krnap.cz/navstevnici/infocentra/informacni-centrum-harrachov/'
                 code: ''
+                reference: null
+                cmsPage: null
+                replace: null
                 viewBag:
                     isHidden: '0'
                     cssClass: ''
                     isExternal: '1'
             -
                 title: 'Informační centrum Pec pod Sněžkou'
+                nesting: null
                 type: url
                 url: 'https://www.krnap.cz/navstevnici/infocentra/informacni-centrum-pec-pod-snezkou/'
                 code: ''
+                reference: null
+                cmsPage: null
+                replace: null
                 viewBag:
                     isHidden: '0'
                     cssClass: ''
@@ -145,6 +157,15 @@ items:
             isHidden: '0'
             cssClass: ''
             isExternal: '0'
+    -
+        title: E-shop
+        type: url
+        url: 'https://eshop.krnap.cz/'
+        code: ''
+        viewBag:
+            isHidden: '0'
+            cssClass: ''
+            isExternal: '1'
     -
         title: FAQ
         nesting: null

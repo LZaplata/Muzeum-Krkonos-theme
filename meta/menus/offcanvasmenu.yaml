@@ -27,15 +27,21 @@ items:
                     cssClass: ''
                     isExternal: '0'
                 items:
-                    -   title: Vstupenky
+                    -
+                        title: Vstupenky
+                        nesting: null
                         type: url
                         url: 'https://portal.colosseum.eu/tours?mrsid=313'
                         code: ''
+                        reference: null
+                        cmsPage: null
+                        replace: null
                         viewBag:
                             isHidden: '0'
                             cssClass: ''
                             isExternal: '1'
-                    -   title: 'Pro badatele'
+                    -
+                        title: 'Pro badatele'
                         nesting: null
                         type: page
                         url: null
@@ -47,7 +53,8 @@ items:
                             isHidden: '0'
                             cssClass: ''
                             isExternal: '0'
-                    -   title: 'Pro rodiny s dětmi'
+                    -
+                        title: 'Pro rodiny s dětmi'
                         nesting: null
                         type: page
                         url: null
@@ -59,7 +66,8 @@ items:
                             isHidden: '0'
                             cssClass: ''
                             isExternal: '0'
-                    -   title: 'Pro školy'
+                    -
+                        title: 'Pro školy'
                         nesting: null
                         type: page
                         url: null
@@ -71,7 +79,8 @@ items:
                             isHidden: '0'
                             cssClass: ''
                             isExternal: '0'
-                    -   title: 'Pro skupiny'
+                    -
+                        title: 'Pro skupiny'
                         nesting: null
                         type: page
                         url: null
@@ -83,7 +92,8 @@ items:
                             isHidden: '0'
                             cssClass: ''
                             isExternal: '0'
-                    -   title: Historie
+                    -
+                        title: Historie
                         nesting: null
                         type: page
                         url: null
@@ -95,7 +105,8 @@ items:
                             isHidden: '0'
                             cssClass: ''
                             isExternal: '0'
-                    -   title: Expozice
+                    -
+                        title: Expozice
                         nesting: null
                         type: page
                         url: null
@@ -107,7 +118,8 @@ items:
                             isHidden: '0'
                             cssClass: ''
                             isExternal: '0'
-                    -   title: 'Dočasné výstavy'
+                    -
+                        title: 'Dočasné výstavy'
                         nesting: null
                         type: page
                         url: null
@@ -119,7 +131,8 @@ items:
                             isHidden: '0'
                             cssClass: ''
                             isExternal: '0'
-                    -   title: Akce
+                    -
+                        title: Akce
                         nesting: null
                         type: page
                         url: null
@@ -131,7 +144,8 @@ items:
                             isHidden: '0'
                             cssClass: ''
                             isExternal: '0'
-                    -   title: Fotogalerie
+                    -
+                        title: Fotogalerie
                         nesting: null
                         type: page
                         url: null
@@ -143,7 +157,8 @@ items:
                             isHidden: '0'
                             cssClass: ''
                             isExternal: '0'
-                    -   title: 'Mapa muzea'
+                    -
+                        title: 'Mapa muzea'
                         nesting: null
                         type: page
                         url: null
@@ -155,7 +170,8 @@ items:
                             isHidden: '0'
                             cssClass: ''
                             isExternal: '0'
-                    -   title: 'Muzejní kavárna'
+                    -
+                        title: 'Muzejní kavárna'
                         nesting: null
                         type: page
                         url: null
@@ -167,7 +183,8 @@ items:
                             isHidden: '0'
                             cssClass: ''
                             isExternal: '0'
-                    -   title: Kontakty
+                    -
+                        title: Kontakty
                         nesting: null
                         type: page
                         url: null
@@ -299,8 +316,13 @@ items:
                     isExternal: '1'
     -
         title: Ekocentrum
+        nesting: null
         type: header
+        url: null
         code: ''
+        reference: null
+        cmsPage: null
+        replace: null
         viewBag:
             isHidden: '0'
             cssClass: ''
@@ -308,34 +330,52 @@ items:
         items:
             -
                 title: 'Programy pro veřejnost'
+                nesting: null
                 type: page
+                url: null
                 code: ''
                 reference: '17'
                 cmsPage: page
+                replace: null
                 viewBag:
                     isHidden: '0'
                     cssClass: ''
                     isExternal: '0'
             -
                 title: 'Programy pro školy'
+                nesting: null
                 type: page
+                url: null
                 code: ''
                 reference: '18'
                 cmsPage: page
+                replace: null
                 viewBag:
                     isHidden: '0'
                     cssClass: ''
                     isExternal: '0'
             -
                 title: Kontakt
+                nesting: null
                 type: page
+                url: null
                 code: ''
                 reference: '19'
                 cmsPage: page
+                replace: null
                 viewBag:
                     isHidden: '0'
                     cssClass: ''
                     isExternal: '0'
+    -
+        title: E-shop
+        type: url
+        url: 'https://eshop.krnap.cz/'
+        code: ''
+        viewBag:
+            isHidden: '0'
+            cssClass: ''
+            isExternal: '1'
     -
         title: FAQ
         nesting: null

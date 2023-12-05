@@ -1,36 +1,39 @@
 items:
     -
         title: 'Muzejní sbírky'
+        nesting: null
         type: url
         url: 'http://sbirky.krnap.cz/'
         code: ''
-        viewBag:
-            isHidden: '0'
-            cssClass: ''
-            isExternal: '1'
-    -
-        title: E-shop
-        type: url
-        url: 'https://eshop.krnap.cz/'
-        code: ''
+        reference: null
+        cmsPage: null
+        replace: null
         viewBag:
             isHidden: '0'
             cssClass: ''
             isExternal: '1'
     -
         title: Knihovna
+        nesting: null
         type: url
         url: 'https://tritius.krnap.cz/'
         code: ''
+        reference: null
+        cmsPage: null
+        replace: null
         viewBag:
             isHidden: '0'
             cssClass: ''
             isExternal: '1'
     -
         title: 'Správa KRNAP'
+        nesting: null
         type: url
         url: 'https://www.krnap.cz/'
         code: ''
+        reference: null
+        cmsPage: null
+        replace: null
         viewBag:
             isHidden: '0'
             cssClass: ''
