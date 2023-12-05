@@ -64,4 +64,14 @@ items:
             isHidden: '0'
             cssClass: ''
             isExternal: '0'
+    -
+        title: 'Prohlášení o přístupnosti'
+        type: page
+        code: ''
+        reference: '21'
+        cmsPage: page
+        viewBag:
+            isHidden: '0'
+            cssClass: ''
+            isExternal: '0'
 name: Links
