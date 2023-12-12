@@ -56,8 +56,40 @@ handle = "Partners\Partner"
     </div>
 </div>
 
-<div class="py-5 border-1 border-bottom border-light">
-    <div class="py-xl-4">
+<div class="pt-5">
+    <div class="pt-xl-4">
         {% partial "map" %}
+    </div>
+</div>
+
+<div class="container-fluid py-5 border-1 border-bottom border-light">
+    <div class="container-lg py-xl-4">
+        <div class="row row-cols-1 row-cols-sm-2 row-cols-xl-3 g-5">
+            <div class="col d-sm-flex align-items-sm-center col-lg-5 offset-lg-1 col-xl offset-xl-0">
+                <img src="{{ 'assets/images/logo-mzp.svg'|theme }}" alt="Ministerstvo životního prostředí" class="img-fluid w-100">
+            </div>
+
+            <div class="col d-sm-flex align-items-sm-center col-lg-5 col-xl">
+                <img src="{{ 'assets/images/logo-sfzp.svg'|theme }}" alt="Státní fond životního prostředí" class="img-fluid w-100">
+            </div>
+
+            <div class="col col-sm-12 text-dark col-lg-10 offset-lg-1 col-xl offset-xl-0">
+                <p class="mb-2">
+                    Tento projekt je spolufinancován <br>
+                    Státním fondem životního prostředí ČR <br>
+                    na základě rozhodnutí ministra životního prostředí <br>
+                </p>
+
+                <p class="mb-0 d-flex gap-3 text-black">
+                    <span class="fw-bold">
+                        www.mzp.cz
+                    </span>
+
+                    <span class="fw-bold">
+                        www.sfzp.cz
+                    </span>
+                </p>
+            </div>
+        </div>
     </div>
 </div>
