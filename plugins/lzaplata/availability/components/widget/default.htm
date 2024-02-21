@@ -1,0 +1,15 @@
+{% set availability = __SELF__.availability %}
+
+<div class="availability widget">
+    <p class="percent">
+        {{ availability.aktualni / availability.maximum * 100 }}%
+    </p>
+
+    <p class="fractal">
+        {{ availability.aktualni }} / {{ availability.maximum }}
+    </p>
+
+    <p class="mb-0">
+        obsazenost
+    </p>
+</div>

@@ -1,0 +1,11 @@
+{% set availability = __SELF__.availability %}
+
+<div class="availability widget position-fixed {{ availability.aktualni < 200 ? 'bg-success' : (availability.aktualni > 250 ? 'bg-danger' : 'bg-warning') }} p-2 text-white">
+    <p class="percent text-center fw-bold fs-2 mb-0">
+        {{ (availability.aktualni / availability.maximum * 100)|number_format(0) }}%
+    </p>
+
+    <p class="mb-0 mt-n1">
+        obsazenost
+    </p>
+</div>

@@ -20,6 +20,8 @@ noPostsMessage = "No posts found"
 sortOrder = "published_at desc"
 categoryPage = "detail-akce-muzeum-krkonos"
 postPage = "detail-akce-muzeum-krkonos"
+
+[widget availability]
 ==
 <!DOCTYPE html>
 <html class="h-100" lang="en">
@@ -45,6 +47,7 @@ postPage = "detail-akce-muzeum-krkonos"
     </head>
 
     <body>
+        {% component "availability" %}
         {% component "quicknews" %}
 
         {% partial "header" %}
