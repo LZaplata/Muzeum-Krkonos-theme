@@ -184,7 +184,12 @@ footer
 .availability
     &.widget
         z-index: 100
-        top: 120px
+        top: 85px
+        right: 1.5rem
+
+        @include media-breakpoint-up(sm)
+            top: 0
+            right: 10rem
 
         @include media-breakpoint-up(xxl)
-            top: 180px
+            right: 15rem
