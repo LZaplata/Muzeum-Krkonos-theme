@@ -44,6 +44,7 @@ $font-size-base:                        1rem;       // 16px
 $font-size-sm:                          .75rem;     // 12px
 
 $font-sizes: (
+    1:                                  1.75rem,        // 28px
     2:                                  1.25rem,        // 20px
     4:                                  .9375rem,       // 15px
     5:                                  0.875rem,       // 13px
@@ -381,6 +382,25 @@ $faq-accordion-number-color:            $primary;
 $faq-accordion-number-size:             40px;
 $faq-accordion-number-bg:               $gray-300;
 
+$input-border-radius:                   0;
+$input-border-color:                    $primary;
+$input-focus-box-shadow:                none;
+$input-focus-border-color:              $primary;
+$input-placeholder-color:               $gray-500;
+$input-font-size:                       $font-size-base;
+$input-font-weight:                     $font-weight-regular;
+$input-padding-y:                       .8rem;
+$input-padding-x:                       1rem;
+$input-color:                           $gray-500;
+
+$form-label-font-size:                  map-get($font-sizes, 2);
+$form-label-margin-bottom:              0;
+
+$form-select-focus-box-shadow:          none;
+$form-select-color:                     $gray-500;
+
+$modal-content-border-radius:           0;
+
 // 3. Include remainder of required Bootstrap stylesheets
 @import "~bootstrap/scss/variables";
 @import "~bootstrap/scss/variables-dark";
@@ -477,9 +497,8 @@ $faq-accordion-number-bg:               $gray-300;
 
 .btn {
     &.btn-primary {
-        --bs-btn-hover-color: #{$black};
-        --bs-btn-hover-bg: transparent;
-        --bs-btn-hover-border-color: #{$red-100};
+        --bs-btn-hover-bg: #{$gray-500};
+        --bs-btn-hover-border-color: #{$gray-500};
     }
 
     &.btn-outline-light {

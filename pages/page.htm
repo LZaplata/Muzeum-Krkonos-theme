@@ -21,6 +21,14 @@ handle = "FAQ\Question"
 page = "{{ :page }}"
 perPage = 10
 eventPage = "detail-akce-muzeum-krkonos"
+place[] = "id_28"
+place[] = "id_10"
+
+[contacts]
+page = "{{ :page }}"
+perPage = 10
+
+[cookiesManage cookiesmanage]
 ==
 <?php
 function onEnd()
@@ -73,6 +81,18 @@ function onEnd()
                     {% if page.id == "akce" %}
                         <div class="content content-events">
                             {% component "events" %}
+                        </div>
+                    {% endif %}
+
+                    {% if page.id == "kontakty" %}
+                        <div class="content content-contacts">
+                            {% component "contacts" %}
+                        </div>
+                    {% endif %}
+
+                    {% if page.id == "nastaveni-cookies" %}
+                        <div class="content content-text">
+                            {% component "cookiesmanage" %}
                         </div>
                     {% endif %}
                 </div>
