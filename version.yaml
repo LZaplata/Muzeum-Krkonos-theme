@@ -3,3 +3,4 @@
 1.1.1: HP title
 1.2.0: Availability plugin
 1.2.1: Update availability according API changes + positioning
+1.3.0: Update Events plugin to select only some places

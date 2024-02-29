@@ -1,0 +1,6 @@
+plugin:
+    name: 'lzaplata.events::lang.plugin.name'
+    description: 'lzaplata.events::lang.plugin.description'
+    author: 'Lukáš Záplata'
+    icon: oc-icon-calendar
+    homepage: ''

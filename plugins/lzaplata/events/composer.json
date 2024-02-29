@@ -1,0 +1,9 @@
+{
+    "name": "lzaplata/events-plugin",
+    "type": "october-plugin",
+    "description": "Plugin for KRNAP events API connection",
+    "require": {
+        "composer/installers": "~1.0",
+        "guzzlehttp/guzzle": "^7.0"
+    }
+}
