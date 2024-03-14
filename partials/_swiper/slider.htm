@@ -1,7 +1,7 @@
 <div class="swiper slider-swiper">
     <div class="swiper-wrapper">
         {% for slide in slides %}
-            <div class="swiper-slide">
+            <div class="swiper-slide position-relative">
                 {% if slide.link %}
                     <a href="{{ slide.link }}">
                 {% endif %}
@@ -17,6 +17,12 @@
                             {% else %}
                                 <img src="{{ slide.image_sm.path }}" alt="{{ slide.image_sm.description }}" class="img-fluid w-100">
                             {% endif %}
+                        </picture>
+
+                        <picture>
+                            <source media="(min-width:768px)" srcset="{{ 'assets/images/claim.png'|theme }}">
+
+                            <img src="{{ 'assets/images/claim-sm.png'|theme }}" alt="" class="img-fluid w-100 position-absolute start-0 top-0">
                         </picture>
                 {% if slide.link %}
                     </a>
