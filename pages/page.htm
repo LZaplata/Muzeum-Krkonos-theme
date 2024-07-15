@@ -78,19 +78,19 @@ function onEnd()
                         </div>
                     {% endfor %}
 
-                    {% if page.id == "akce" %}
+                    {% if page.id in ["akce", "events"] %}
                         <div class="content content-events">
                             {% component "events" %}
                         </div>
                     {% endif %}
 
-                    {% if page.id == "kontakty" %}
+                    {% if page.id in ["kontakty", "contacts"] %}
                         <div class="content content-contacts">
                             {% component "contacts" %}
                         </div>
                     {% endif %}
 
-                    {% if page.id == "nastaveni-cookies" %}
+                    {% if page.id in ["nastaveni-cookies", "cookies-settings"] %}
                         <div class="content content-text">
                             {% component "cookiesmanage" %}
                         </div>
