@@ -9,6 +9,9 @@ items:
             isHidden: '0'
             cssClass: ''
             isExternal: '0'
+            locale:
+                en:
+                    title: 'Programs for public'
     -
         title: 'Programy pro školy'
         type: page
@@ -19,6 +22,9 @@ items:
             isHidden: '0'
             cssClass: ''
             isExternal: '0'
+            locale:
+                en:
+                    title: 'Programs for schools'
     -
         title: Kontakt
         type: page
@@ -29,4 +35,7 @@ items:
             isHidden: '0'
             cssClass: ''
             isExternal: '0'
+            locale:
+                en:
+                    title: Contact
 name: Ecocenter

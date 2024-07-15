@@ -9,6 +9,9 @@ items:
             isHidden: '0'
             cssClass: ''
             isExternal: '0'
+            locale:
+                en:
+                    title: 'Krkonoše Museum'
     -
         title: 'Krkonošské muzeum Vrchlabí'
         nesting: null
@@ -22,6 +25,10 @@ items:
             isHidden: '0'
             cssClass: ''
             isExternal: '1'
+            locale:
+                en:
+                    title: 'Krkonoše Museum in Vrchlabí'
+                    url: 'https://www.krnap.cz/navstevnici/muzea/krkonosske-muzeum-ve-vrchlabi-ctyri-historicke-domky/'
     -
         title: 'Krkonošské muzeum Jilemnice'
         nesting: null
@@ -35,6 +42,10 @@ items:
             isHidden: '0'
             cssClass: ''
             isExternal: '1'
+            locale:
+                en:
+                    title: 'Krkonoše Museum Jilemnice'
+                    url: 'https://www.krnap.cz/navstevnici/muzea/krkonosske-muzeum-jilemnice/'
     -
         title: 'Památník zapadlých vlastenců Paseky'
         nesting: null
@@ -48,6 +59,10 @@ items:
             isHidden: '0'
             cssClass: ''
             isExternal: '1'
+            locale:
+                en:
+                    title: 'Monument to Fallen Patriots in Paseky nad Jizerou'
+                    url: 'https://www.krnap.cz/navstevnici/muzea/pamatnik-zapadlych-vlastencu-paseky-nad-jizerou/'
     -
         title: 'Krkonošské muzeum Šindelka Harrachov'
         nesting: null
@@ -61,6 +76,10 @@ items:
             isHidden: '0'
             cssClass: ''
             isExternal: '1'
+            locale:
+                en:
+                    title: 'Šindelka Exposition in Harrachov'
+                    url: 'https://www.krnap.cz/navstevnici/muzea/expozice-sindelka-harrachov/'
     -
         title: 'Expozice Vápenka Albeřice'
         nesting: null
@@ -74,4 +93,8 @@ items:
             isHidden: '0'
             cssClass: ''
             isExternal: '1'
+            locale:
+                en:
+                    title: 'Vápenka Museum in Horní Albeřice'
+                    url: 'https://www.krnap.cz/navstevnici/muzea/muzeum-vapenka/'
 name: Museums

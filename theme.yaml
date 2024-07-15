@@ -10,6 +10,7 @@ require:
     - initbiz.seostorm
     - rainlab.pages
     - rainlab.blog
+    - rainlab.translate
     - janvince.smallgdpr
 form:
     tabs:
@@ -68,6 +69,7 @@ form:
                 type: repeater
                 tab: Muzea
                 itemsExpanded: false
+                translatable: true
                 form:
                     fields:
                         image:
@@ -95,10 +97,12 @@ form:
                 label: Text v menu
                 type: textarea
                 tab: Muzea
+                translatable: true
             infocenters:
                 type: repeater
                 tab: Infocentra
                 itemsExpanded: false
+                translatable: true
                 form:
                     fields:
                         image:
@@ -126,3 +130,4 @@ form:
                 label: Text v menu
                 type: textarea
                 tab: Infocentra
+                translatable: true

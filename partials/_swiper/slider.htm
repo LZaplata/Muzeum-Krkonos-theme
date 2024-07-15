@@ -20,9 +20,9 @@
                         </picture>
 
                         <picture>
-                            <source media="(min-width:768px)" srcset="{{ 'assets/images/claim.png'|theme }}">
+                            <source media="(min-width:768px)" srcset="{{ ['assets/images/claim.', this.site.code, '.png']|join|theme }}">
 
-                            <img src="{{ 'assets/images/claim-sm.png'|theme }}" alt="" class="img-fluid w-100 position-absolute start-0 top-0">
+                            <img src="{{ ['assets/images/claim-sm.', this.site.code, '.png']|join|theme }}" alt="" class="img-fluid w-100 position-absolute start-0 top-0">
                         </picture>
                 {% if slide.link %}
                     </a>

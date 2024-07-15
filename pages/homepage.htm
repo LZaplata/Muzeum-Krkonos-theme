@@ -28,7 +28,7 @@ handle = "Partners\Partner"
 <div class="container-fluid pt-5">
     <div class="container-lg pt-xl-4">
         <h2 class="h1 mb-4 mb-xl-5">
-            Muzea
+            {{ "homepage.museums"|trans }}
         </h2>
 
         <div class="row row-cols-1 gx-4 gy-5 row-cols-sm-2 row-cols-lg-3">
@@ -44,12 +44,11 @@ handle = "Partners\Partner"
 <div class="container-fluid pt-5">
     <div class="container-lg pt-xl-4">
         <h2 class="h1 mb-3">
-            Infocentra
+            {{ "information_centres"|trans }}
         </h2>
 
         <p class="mb-4 mb-xl-5 fs-2 text-dark">
-            Informační centra Správy KRNAP nabízejí návštěvníkům Krkonoš nejen komplexní informace o Krkonošském
-            národním parku, ale i o možnostech výletů za zajímavostmi, krásami a pozoruhodnostmi našich nejvyšších hor.
+            {{ this.theme.infocenters_menu_text }}
         </p>
 
         <div class="row row-cols-1 gx-4 gy-5 row-cols-sm-2 row-cols-lg-3">

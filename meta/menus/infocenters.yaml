@@ -8,6 +8,10 @@ items:
             isHidden: '0'
             cssClass: ''
             isExternal: '1'
+            locale:
+                en:
+                    title: 'Špindlerův Mlýn Information Centre'
+                    url: 'https://www.krnap.cz/navstevnici/infocentra/informacni-centrum-spindleruv-mlyn/'
     -
         title: 'Informační centrum Pec pod Sněžkou'
         type: url
@@ -17,6 +21,10 @@ items:
             isHidden: '0'
             cssClass: ''
             isExternal: '1'
+            locale:
+                en:
+                    title: 'Pec pod Sněžkou Information Centre'
+                    url: 'https://www.krnap.cz/navstevnici/infocentra/informacni-centrum-pec-pod-snezkou/'
     -
         title: 'Informační centrum Harrachov'
         type: url
@@ -26,4 +34,8 @@ items:
             isHidden: '0'
             cssClass: ''
             isExternal: '1'
+            locale:
+                en:
+                    title: 'Harrachov Information Centre'
+                    url: 'https://www.krnap.cz/navstevnici/infocentra/informacni-centrum-harrachov/'
 name: Infocenters

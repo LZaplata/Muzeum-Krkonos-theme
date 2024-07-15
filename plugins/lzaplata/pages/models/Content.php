@@ -3,6 +3,7 @@
 use Backend\Facades\BackendAuth;
 use LZaplata\Gallery\Models\Gallery;
 use Model;
+use October\Rain\Database\Traits\Multisite;
 use October\Rain\Exception\SystemException;
 use Tailor\Classes\BlueprintIndexer;
 use Tailor\Models\EntryRecord;
@@ -14,6 +15,7 @@ class Content extends Model
 {
     use \October\Rain\Database\Traits\Validation;
     use \October\Rain\Database\Traits\SoftDelete;
+    use Multisite;
 
     /**
      * @var array dates to cast from the database.
@@ -30,6 +32,11 @@ class Content extends Model
      */
     public $rules = [
     ];
+
+    /**
+     * @var array
+     */
+    public $propagatable = [];
 
     /**
      * @return array

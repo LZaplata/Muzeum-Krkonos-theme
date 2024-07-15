@@ -12,6 +12,10 @@ items:
             isHidden: '0'
             cssClass: ''
             isExternal: '1'
+            locale:
+                en:
+                    title: 'Muzejní sbírky'
+                    url: 'http://sbirky.krnap.cz/'
     -
         title: Knihovna
         nesting: null
@@ -25,6 +29,10 @@ items:
             isHidden: '0'
             cssClass: ''
             isExternal: '1'
+            locale:
+                en:
+                    title: Knihovna
+                    url: 'https://tritius.krnap.cz/'
     -
         title: 'Správa KRNAP'
         nesting: null
@@ -38,19 +46,22 @@ items:
             isHidden: '0'
             cssClass: ''
             isExternal: '1'
+            locale:
+                en:
+                    title: 'Správa KRNAP'
+                    url: 'https://www.krnap.cz/'
     -
         title: 'Nastavení cookies'
-        nesting: null
         type: cms-page
-        url: null
         code: ''
         reference: nastaveni-cookies
-        cmsPage: null
-        replace: null
         viewBag:
             isHidden: '0'
             cssClass: ''
             isExternal: '0'
+            locale:
+                en:
+                    title: 'Cookies settings'
     -
         title: GDPR
         nesting: null
@@ -64,14 +75,24 @@ items:
             isHidden: '0'
             cssClass: ''
             isExternal: '0'
+            locale:
+                en:
+                    title: GDPR
+                    url: /
     -
         title: 'Prohlášení o přístupnosti'
+        nesting: null
         type: page
+        url: null
         code: ''
         reference: '21'
         cmsPage: page
+        replace: null
         viewBag:
             isHidden: '0'
             cssClass: ''
             isExternal: '0'
+            locale:
+                en:
+                    title: 'Prohlášení o přístupnosti'
 name: Links
