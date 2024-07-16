@@ -244,13 +244,9 @@ items:
                                     title: Contacts
             -
                 title: 'Krkonošské muzeum Vrchlabí'
-                nesting: null
                 type: url
                 url: 'https://www.krnap.cz/navstevnici/muzea/krkonosske-muzeum-ve-vrchlabi-ctyri-historicke-domky/'
                 code: ''
-                reference: null
-                cmsPage: null
-                replace: null
                 viewBag:
                     isHidden: '0'
                     cssClass: ''
@@ -258,16 +254,12 @@ items:
                     locale:
                         en:
                             title: 'Krkonoše Museum in Vrchlabí'
-                            url: 'https://www.krnap.cz/navstevnici/muzea/krkonosske-muzeum-ve-vrchlabi-ctyri-historicke-domky/'
+                            url: 'https://www.krnap.cz/en/visitors/museums/krkonose-mountains-museum-in-vrchlabi-four-historical-houses/'
             -
                 title: 'Krkonošské muzeum Jilemnice'
-                nesting: null
                 type: url
                 url: 'https://www.krnap.cz/navstevnici/muzea/krkonosske-muzeum-jilemnice/'
                 code: ''
-                reference: null
-                cmsPage: null
-                replace: null
                 viewBag:
                     isHidden: '0'
                     cssClass: ''
@@ -275,16 +267,12 @@ items:
                     locale:
                         en:
                             title: 'Krkonoše Museum Jilemnice'
-                            url: 'https://www.krnap.cz/navstevnici/muzea/krkonosske-muzeum-jilemnice/'
+                            url: 'https://www.krnap.cz/en/visitors/museums/krkonose-mountains-museum-jilemnice/'
             -
                 title: 'Památník zapadlých vlastenců Paseky nad Jizerou'
-                nesting: null
                 type: url
                 url: 'https://www.krnap.cz/navstevnici/muzea/pamatnik-zapadlych-vlastencu-paseky-nad-jizerou/'
                 code: ''
-                reference: null
-                cmsPage: null
-                replace: null
                 viewBag:
                     isHidden: '0'
                     cssClass: ''
@@ -292,16 +280,12 @@ items:
                     locale:
                         en:
                             title: 'Monument to Fallen Patriots in Paseky nad Jizerou'
-                            url: 'https://www.krnap.cz/navstevnici/muzea/pamatnik-zapadlych-vlastencu-paseky-nad-jizerou/'
+                            url: 'https://www.krnap.cz/en/visitors/museums/monument-to-fallen-patriots-paseky-nad-jizerou/'
             -
                 title: 'Krkonošské muzeum Šindelka Harrachov'
-                nesting: null
                 type: url
                 url: 'https://www.krnap.cz/navstevnici/muzea/expozice-sindelka-harrachov/'
                 code: ''
-                reference: null
-                cmsPage: null
-                replace: null
                 viewBag:
                     isHidden: '0'
                     cssClass: ''
@@ -309,16 +293,12 @@ items:
                     locale:
                         en:
                             title: 'Šindelka Exposition in Harrachov'
-                            url: 'https://www.krnap.cz/navstevnici/muzea/expozice-sindelka-harrachov/'
+                            url: 'https://www.krnap.cz/en/visitors/museums/sindelka-exposition-harrachov/'
             -
                 title: 'Expozice Vápenka Albeřice'
-                nesting: null
                 type: url
                 url: 'https://www.krnap.cz/navstevnici/muzea/muzeum-vapenka/'
                 code: ''
-                reference: null
-                cmsPage: null
-                replace: null
                 viewBag:
                     isHidden: '0'
                     cssClass: ''
@@ -326,7 +306,7 @@ items:
                     locale:
                         en:
                             title: 'Vápenka Museum in Horní Albeřice'
-                            url: 'https://www.krnap.cz/navstevnici/muzea/muzeum-vapenka/'
+                            url: 'https://www.krnap.cz/en/visitors/museums/vapenka-museum-in-horni-alberice/'
     -
         title: Infocentra
         nesting: null
@@ -414,10 +394,13 @@ items:
         items:
             -
                 title: 'Programy pro veřejnost'
+                nesting: null
                 type: page
+                url: null
                 code: ''
                 reference: '17'
                 cmsPage: page
+                replace: null
                 viewBag:
                     isHidden: '0'
                     cssClass: ''
@@ -427,10 +410,13 @@ items:
                             title: 'Programs for public'
             -
                 title: 'Programy pro školy'
+                nesting: null
                 type: page
+                url: null
                 code: ''
                 reference: '18'
                 cmsPage: page
+                replace: null
                 viewBag:
                     isHidden: '0'
                     cssClass: ''
@@ -440,10 +426,13 @@ items:
                             title: 'Programs for schools'
             -
                 title: Kontakt
+                nesting: null
                 type: page
+                url: null
                 code: ''
                 reference: '19'
                 cmsPage: page
+                replace: null
                 viewBag:
                     isHidden: '0'
                     cssClass: ''
