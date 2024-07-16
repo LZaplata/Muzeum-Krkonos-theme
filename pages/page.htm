@@ -84,11 +84,11 @@ function onEnd()
                         </div>
                     {% endif %}
 
-                    {% if page.id in ["kontakty", "contacts"] %}
-                        <div class="content content-contacts">
-                            {% component "contacts" %}
-                        </div>
-                    {% endif %}
+{#                    {% if page.id in ["kontakty", "contacts"] and page.menu == "" %}#}
+{#                        <div class="content content-contacts">#}
+{#                            {% component "contacts" %}#}
+{#                        </div>#}
+{#                    {% endif %}#}
 
                     {% if page.id in ["nastaveni-cookies", "cookies-settings"] %}
                         <div class="content content-text">
