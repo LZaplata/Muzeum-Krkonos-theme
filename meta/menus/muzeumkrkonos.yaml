@@ -17,24 +17,62 @@ items:
                     title: Tickets
                     url: 'https://portal.colosseum.eu/tours?mrsid=313'
     -
-        title: 'Pro badatele'
+        title: Expozice
+        nesting: null
         type: page
+        url: null
         code: ''
-        reference: '2'
+        reference: '8'
         cmsPage: page
+        replace: null
         viewBag:
             isHidden: '0'
             cssClass: ''
             isExternal: '0'
             locale:
                 en:
-                    title: 'For researchers'
+                    title: Exhibitions
+    -
+        title: 'Mapa muzea'
+        nesting: null
+        type: page
+        url: null
+        code: ''
+        reference: '11'
+        cmsPage: page
+        replace: null
+        viewBag:
+            isHidden: '0'
+            cssClass: ''
+            isExternal: '0'
+            locale:
+                en:
+                    title: 'Museum map'
+    -
+        title: Fotogalerie
+        nesting: null
+        type: page
+        url: null
+        code: ''
+        reference: '10'
+        cmsPage: page
+        replace: null
+        viewBag:
+            isHidden: '0'
+            cssClass: ''
+            isExternal: '0'
+            locale:
+                en:
+                    title: Gallery
     -
         title: 'Pro rodiny s dětmi'
+        nesting: null
         type: page
+        url: null
         code: ''
         reference: '4'
         cmsPage: page
+        replace: null
         viewBag:
             isHidden: '0'
             cssClass: ''
@@ -44,10 +82,13 @@ items:
                     title: 'Families with children'
     -
         title: 'Pro školy'
+        nesting: null
         type: page
+        url: null
         code: ''
         reference: '5'
         cmsPage: page
+        replace: null
         viewBag:
             isHidden: '0'
             cssClass: ''
@@ -56,11 +97,30 @@ items:
                 en:
                     title: 'For schools'
     -
-        title: 'Pro skupiny'
+        title: 'Pro badatele'
+        nesting: null
         type: page
+        url: null
+        code: ''
+        reference: '2'
+        cmsPage: page
+        replace: null
+        viewBag:
+            isHidden: '0'
+            cssClass: ''
+            isExternal: '0'
+            locale:
+                en:
+                    title: 'For researchers'
+    -
+        title: 'Pro skupiny'
+        nesting: null
+        type: page
+        url: null
         code: ''
         reference: '6'
         cmsPage: page
+        replace: null
         viewBag:
             isHidden: '0'
             cssClass: ''
@@ -69,37 +129,14 @@ items:
                 en:
                     title: 'For groups'
     -
-        title: Historie
-        type: page
-        code: ''
-        reference: '7'
-        cmsPage: page
-        viewBag:
-            isHidden: '0'
-            cssClass: ''
-            isExternal: '0'
-            locale:
-                en:
-                    title: 'History of the museum'
-    -
-        title: Expozice
-        type: page
-        code: ''
-        reference: '8'
-        cmsPage: page
-        viewBag:
-            isHidden: '0'
-            cssClass: ''
-            isExternal: '0'
-            locale:
-                en:
-                    title: Exhibitions
-    -
         title: 'Dočasné výstavy'
+        nesting: null
         type: page
+        url: null
         code: ''
         reference: '9'
         cmsPage: page
+        replace: null
         viewBag:
             isHidden: '0'
             cssClass: ''
@@ -109,10 +146,13 @@ items:
                     title: 'Temporary exhibitions'
     -
         title: Akce
+        nesting: null
         type: page
+        url: null
         code: events
         reference: '14'
         cmsPage: page
+        replace: null
         viewBag:
             isHidden: '0'
             cssClass: ''
@@ -121,37 +161,30 @@ items:
                 en:
                     title: Events
     -
-        title: Fotogalerie
+        title: Historie
+        nesting: null
         type: page
+        url: null
         code: ''
-        reference: '10'
+        reference: '7'
         cmsPage: page
+        replace: null
         viewBag:
             isHidden: '0'
             cssClass: ''
             isExternal: '0'
             locale:
                 en:
-                    title: Gallery
-    -
-        title: 'Mapa muzea'
-        type: page
-        code: ''
-        reference: '11'
-        cmsPage: page
-        viewBag:
-            isHidden: '0'
-            cssClass: ''
-            isExternal: '0'
-            locale:
-                en:
-                    title: 'Museum map'
+                    title: 'History of the museum'
     -
         title: 'Muzejní kavárna'
+        nesting: null
         type: page
+        url: null
         code: ''
         reference: '12'
         cmsPage: page
+        replace: null
         viewBag:
             isHidden: '0'
             cssClass: ''
@@ -161,10 +194,13 @@ items:
                     title: 'Museum Café'
     -
         title: Kontakty
+        nesting: null
         type: page
+        url: null
         code: ''
         reference: '13'
         cmsPage: page
+        replace: null
         viewBag:
             isHidden: '0'
             cssClass: ''
