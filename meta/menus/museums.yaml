@@ -15,8 +15,9 @@ items:
             locale:
                 en:
                     title: 'Krkonoše Museum'
-    -
-        title: 'Krkonošské muzeum Vrchlabí'
+                de:
+                    title: 'Museum des Riesengebirges'
+    -   title: 'Krkonošské muzeum Vrchlabí'
         type: url
         url: 'https://www.krnap.cz/navstevnici/muzea/krkonosske-muzeum-ve-vrchlabi-ctyri-historicke-domky/'
         code: ''
@@ -28,8 +29,10 @@ items:
                 en:
                     title: 'Krkonoše Museum in Vrchlabí'
                     url: 'https://www.krnap.cz/en/visitors/museums/krkonose-mountains-museum-in-vrchlabi-four-historical-houses/'
-    -
-        title: 'Krkonošské muzeum Jilemnice'
+                de:
+                    title: 'Riesengebirgs-Museum in Vrchlabí'
+                    url: 'https://www.krnap.cz/de/besucher/museen/riesengebirgs-museum-in-vrchlabi-vier-historische-haeuser/'
+    -   title: 'Krkonošské muzeum Jilemnice'
         type: url
         url: 'https://www.krnap.cz/navstevnici/muzea/krkonosske-muzeum-jilemnice/'
         code: ''
@@ -41,8 +44,10 @@ items:
                 en:
                     title: 'Krkonoše Museum Jilemnice'
                     url: 'https://www.krnap.cz/en/visitors/museums/krkonose-mountains-museum-jilemnice/'
-    -
-        title: 'Památník zapadlých vlastenců Paseky'
+                de:
+                    title: 'Riesengebirgs-Museum Jilemnice'
+                    url: 'https://www.krnap.cz/de/besucher/museen/riesengebirgs-museum-jilemnice/'
+    -   title: 'Památník zapadlých vlastenců Paseky nad Jizerou'
         type: url
         url: 'https://www.krnap.cz/navstevnici/muzea/pamatnik-zapadlych-vlastencu-paseky-nad-jizerou/'
         code: ''
@@ -54,8 +59,10 @@ items:
                 en:
                     title: 'Monument to Fallen Patriots in Paseky nad Jizerou'
                     url: 'https://www.krnap.cz/en/visitors/museums/monument-to-fallen-patriots-paseky-nad-jizerou/'
-    -
-        title: 'Krkonošské muzeum Šindelka Harrachov'
+                de:
+                    title: 'Gedenkstätte der vergessenen Patrioten in Paseky nad Jizerou'
+                    url: 'https://www.krnap.cz/de/besucher/museen/gedenkstaette-der-vergessenen-patrioten-paseky-nad-jizerou/'
+    -   title: 'Krkonošské muzeum Šindelka Harrachov'
         type: url
         url: 'https://www.krnap.cz/navstevnici/muzea/expozice-sindelka-harrachov/'
         code: ''
@@ -67,8 +74,10 @@ items:
                 en:
                     title: 'Šindelka Exposition in Harrachov'
                     url: 'https://www.krnap.cz/en/visitors/museums/sindelka-exposition-harrachov/'
-    -
-        title: 'Expozice Vápenka Albeřice'
+                de:
+                    title: 'Ausstellung Šindelka in Harrachov'
+                    url: 'https://www.krnap.cz/de/besucher/museen/ausstellung-sindelka-harrachov/'
+    -   title: 'Expozice Vápenka Albeřice'
         type: url
         url: 'https://www.krnap.cz/navstevnici/muzea/muzeum-vapenka/'
         code: ''
@@ -80,4 +89,7 @@ items:
                 en:
                     title: 'Vápenka Museum in Horní Albeřice'
                     url: 'https://www.krnap.cz/en/visitors/museums/vapenka-museum-in-horni-alberice/'
+                de:
+                    title: 'Museum Vápenka in Horní Albeřice'
+                    url: 'https://www.krnap.cz/de/besucher/museen/museum-vapenka-in-horni-alberice/'
 name: Museums
