@@ -15,6 +15,8 @@ items:
             locale:
                 en:
                     title: 'Museums and Exhibitions'
+                de:
+                    title: 'Museen und Ausstellungen'
         items:
             -
                 title: 'Muzeum Krkonoš'
@@ -32,15 +34,13 @@ items:
                     locale:
                         en:
                             title: 'Krkonoše Museum'
+                        de:
+                            title: 'Museum des Riesengebirges'
                 items:
                     -   title: Vstupenky
-                        nesting: null
                         type: url
                         url: 'https://portal.colosseum.eu/tours?mrsid=313'
                         code: ''
-                        reference: null
-                        cmsPage: null
-                        replace: null
                         viewBag:
                             isHidden: '0'
                             cssClass: ''
@@ -49,14 +49,14 @@ items:
                                 en:
                                     title: Tickets
                                     url: 'https://portal.colosseum.eu/tours?mrsid=313'
+                                de:
+                                    title: Tickets
+                                    url: 'https://portal.colosseum.eu/tours?mrsid=313'
                     -   title: Expozice
-                        nesting: null
                         type: page
-                        url: null
                         code: ''
                         reference: '8'
                         cmsPage: page
-                        replace: null
                         viewBag:
                             isHidden: '0'
                             cssClass: ''
@@ -64,14 +64,13 @@ items:
                             locale:
                                 en:
                                     title: Exhibitions
+                                de:
+                                    title: Ausstellungen
                     -   title: 'Mapa muzea'
-                        nesting: null
                         type: page
-                        url: null
                         code: ''
                         reference: '11'
                         cmsPage: page
-                        replace: null
                         viewBag:
                             isHidden: '0'
                             cssClass: ''
@@ -79,14 +78,13 @@ items:
                             locale:
                                 en:
                                     title: 'Museum map'
+                                de:
+                                    title: 'Karte des Museums'
                     -   title: Fotogalerie
-                        nesting: null
                         type: page
-                        url: null
                         code: ''
                         reference: '10'
                         cmsPage: page
-                        replace: null
                         viewBag:
                             isHidden: '0'
                             cssClass: ''
@@ -94,14 +92,13 @@ items:
                             locale:
                                 en:
                                     title: Gallery
+                                de:
+                                    title: Fotogallerie
                     -   title: 'Pro rodiny s dětmi'
-                        nesting: null
                         type: page
-                        url: null
                         code: ''
                         reference: '4'
                         cmsPage: page
-                        replace: null
                         viewBag:
                             isHidden: '0'
                             cssClass: ''
@@ -109,14 +106,13 @@ items:
                             locale:
                                 en:
                                     title: 'Families with children'
+                                de:
+                                    title: 'Für Eltern und Kinder'
                     -   title: 'Pro školy'
-                        nesting: null
                         type: page
-                        url: null
                         code: ''
                         reference: '5'
                         cmsPage: page
-                        replace: null
                         viewBag:
                             isHidden: '0'
                             cssClass: ''
@@ -124,14 +120,13 @@ items:
                             locale:
                                 en:
                                     title: 'For schools'
+                                de:
+                                    title: 'Für Schulen'
                     -   title: 'Pro badatele'
-                        nesting: null
                         type: page
-                        url: null
                         code: ''
                         reference: '2'
                         cmsPage: page
-                        replace: null
                         viewBag:
                             isHidden: '0'
                             cssClass: ''
@@ -139,14 +134,13 @@ items:
                             locale:
                                 en:
                                     title: 'For researchers'
+                                de:
+                                    title: 'Für Forscher'
                     -   title: 'Pro skupiny'
-                        nesting: null
                         type: page
-                        url: null
                         code: ''
                         reference: '6'
                         cmsPage: page
-                        replace: null
                         viewBag:
                             isHidden: '0'
                             cssClass: ''
@@ -154,14 +148,13 @@ items:
                             locale:
                                 en:
                                     title: 'For groups'
+                                de:
+                                    title: 'Für Gruppen'
                     -   title: 'Dočasné výstavy'
-                        nesting: null
                         type: page
-                        url: null
                         code: ''
                         reference: '9'
                         cmsPage: page
-                        replace: null
                         viewBag:
                             isHidden: '0'
                             cssClass: ''
@@ -169,14 +162,13 @@ items:
                             locale:
                                 en:
                                     title: 'Temporary exhibitions'
+                                de:
+                                    title: 'Temporäre Ausstellungen'
                     -   title: Akce
-                        nesting: null
                         type: page
-                        url: null
                         code: events
                         reference: '14'
                         cmsPage: page
-                        replace: null
                         viewBag:
                             isHidden: '0'
                             cssClass: ''
@@ -184,14 +176,13 @@ items:
                             locale:
                                 en:
                                     title: Events
+                                de:
+                                    title: Veranstaltungen
                     -   title: Historie
-                        nesting: null
                         type: page
-                        url: null
                         code: ''
                         reference: '7'
                         cmsPage: page
-                        replace: null
                         viewBag:
                             isHidden: '0'
                             cssClass: ''
@@ -199,14 +190,13 @@ items:
                             locale:
                                 en:
                                     title: 'History of the museum'
+                                de:
+                                    title: Geschichte
                     -   title: 'Muzejní kavárna'
-                        nesting: null
                         type: page
-                        url: null
                         code: ''
                         reference: '12'
                         cmsPage: page
-                        replace: null
                         viewBag:
                             isHidden: '0'
                             cssClass: ''
@@ -214,14 +204,13 @@ items:
                             locale:
                                 en:
                                     title: 'Museum Café'
+                                de:
+                                    title: Museumscafé
                     -   title: Kontakty
-                        nesting: null
                         type: page
-                        url: null
                         code: ''
                         reference: '13'
                         cmsPage: page
-                        replace: null
                         viewBag:
                             isHidden: '0'
                             cssClass: ''
@@ -229,8 +218,9 @@ items:
                             locale:
                                 en:
                                     title: Contacts
-            -
-                title: 'Krkonošské muzeum Vrchlabí'
+                                de:
+                                    title: Kontakte
+            -   title: 'Krkonošské muzeum Vrchlabí'
                 type: url
                 url: 'https://www.krnap.cz/navstevnici/muzea/krkonosske-muzeum-ve-vrchlabi-ctyri-historicke-domky/'
                 code: ''
@@ -242,8 +232,10 @@ items:
                         en:
                             title: 'Krkonoše Museum in Vrchlabí'
                             url: 'https://www.krnap.cz/en/visitors/museums/krkonose-mountains-museum-in-vrchlabi-four-historical-houses/'
-            -
-                title: 'Krkonošské muzeum Jilemnice'
+                        de:
+                            title: 'Riesengebirgs-Museum in Vrchlabí'
+                            url: 'https://www.krnap.cz/de/besucher/museen/riesengebirgs-museum-in-vrchlabi-vier-historische-haeuser/'
+            -   title: 'Krkonošské muzeum Jilemnice'
                 type: url
                 url: 'https://www.krnap.cz/navstevnici/muzea/krkonosske-muzeum-jilemnice/'
                 code: ''
@@ -255,8 +247,10 @@ items:
                         en:
                             title: 'Krkonoše Museum Jilemnice'
                             url: 'https://www.krnap.cz/en/visitors/museums/krkonose-mountains-museum-jilemnice/'
-            -
-                title: 'Památník zapadlých vlastenců Paseky nad Jizerou'
+                        de:
+                            title: 'Riesengebirgs-Museum Jilemnice'
+                            url: 'https://www.krnap.cz/de/besucher/museen/riesengebirgs-museum-jilemnice/'
+            -   title: 'Památník zapadlých vlastenců Paseky nad Jizerou'
                 type: url
                 url: 'https://www.krnap.cz/navstevnici/muzea/pamatnik-zapadlych-vlastencu-paseky-nad-jizerou/'
                 code: ''
@@ -268,8 +262,10 @@ items:
                         en:
                             title: 'Monument to Fallen Patriots in Paseky nad Jizerou'
                             url: 'https://www.krnap.cz/en/visitors/museums/monument-to-fallen-patriots-paseky-nad-jizerou/'
-            -
-                title: 'Krkonošské muzeum Šindelka Harrachov'
+                        de:
+                            title: 'Gedenkstätte der vergessenen Patrioten in Paseky nad Jizerou'
+                            url: 'https://www.krnap.cz/de/besucher/museen/gedenkstaette-der-vergessenen-patrioten-paseky-nad-jizerou/'
+            -   title: 'Krkonošské muzeum Šindelka Harrachov'
                 type: url
                 url: 'https://www.krnap.cz/navstevnici/muzea/expozice-sindelka-harrachov/'
                 code: ''
@@ -281,8 +277,10 @@ items:
                         en:
                             title: 'Šindelka Exposition in Harrachov'
                             url: 'https://www.krnap.cz/en/visitors/museums/sindelka-exposition-harrachov/'
-            -
-                title: 'Expozice Vápenka Albeřice'
+                        de:
+                            title: 'Ausstellung Šindelka in Harrachov'
+                            url: 'https://www.krnap.cz/de/besucher/museen/ausstellung-sindelka-harrachov/'
+            -   title: 'Expozice Vápenka Albeřice'
                 type: url
                 url: 'https://www.krnap.cz/navstevnici/muzea/muzeum-vapenka/'
                 code: ''
@@ -294,6 +292,9 @@ items:
                         en:
                             title: 'Vápenka Museum in Horní Albeřice'
                             url: 'https://www.krnap.cz/en/visitors/museums/vapenka-museum-in-horni-alberice/'
+                        de:
+                            title: 'Museum Vápenka in Horní Albeřice'
+                            url: 'https://www.krnap.cz/de/besucher/museen/museum-vapenka-in-horni-alberice/'
     -
         title: Infocentra
         nesting: null
@@ -310,9 +311,10 @@ items:
             locale:
                 en:
                     title: 'Information centres'
+                de:
+                    title: Infozentren
         items:
-            -
-                title: 'Informační centrum Špindlerův Mlýn'
+            -   title: 'Informační centrum Špindlerův Mlýn'
                 type: url
                 url: 'https://www.krnap.cz/navstevnici/infocentra/informacni-centrum-spindleruv-mlyn/'
                 code: ''
@@ -324,21 +326,7 @@ items:
                         en:
                             title: 'Špindlerův Mlýn Information Centre'
                             url: 'https://www.krnap.cz/en/visitors/information-centres/spindleruv-mlyn-information-centre/'
-            -
-                title: 'Informační centrum Harrachov'
-                type: url
-                url: 'https://www.krnap.cz/navstevnici/infocentra/informacni-centrum-harrachov/'
-                code: ''
-                viewBag:
-                    isHidden: '0'
-                    cssClass: ''
-                    isExternal: '1'
-                    locale:
-                        en:
-                            title: 'Harrachov Information Centre'
-                            url: 'https://www.krnap.cz/en/visitors/information-centres/harrachov-information-centre/'
-            -
-                title: 'Informační centrum Pec pod Sněžkou'
+            -   title: 'Informační centrum Pec pod Sněžkou'
                 type: url
                 url: 'https://www.krnap.cz/navstevnici/infocentra/informacni-centrum-pec-pod-snezkou/'
                 code: ''
@@ -350,6 +338,18 @@ items:
                         en:
                             title: 'Pec pod Sněžkou Information Centre'
                             url: 'https://www.krnap.cz/en/visitors/information-centres/pec-pod-snezkou-information-centre/'
+            -   title: 'Informační centrum Harrachov'
+                type: url
+                url: 'https://www.krnap.cz/navstevnici/infocentra/informacni-centrum-harrachov/'
+                code: ''
+                viewBag:
+                    isHidden: '0'
+                    cssClass: ''
+                    isExternal: '1'
+                    locale:
+                        en:
+                            title: 'Harrachov Information Centre'
+                            url: 'https://www.krnap.cz/en/visitors/information-centres/harrachov-information-centre/'
     -
         title: Ekocentrum
         nesting: null
@@ -366,6 +366,8 @@ items:
             locale:
                 en:
                     title: Ekocentrum
+                de:
+                    title: Umweltzentrum
         items:
             -
                 title: 'Programy pro veřejnost'
@@ -383,6 +385,8 @@ items:
                     locale:
                         en:
                             title: 'Programs for public'
+                        de:
+                            title: 'Programme für die Öffentlichkeit'
             -
                 title: 'Programy pro školy'
                 nesting: null
@@ -399,6 +403,8 @@ items:
                     locale:
                         en:
                             title: 'Programs for schools'
+                        de:
+                            title: 'Programme für Schulen'
             -
                 title: Kontakt
                 nesting: null
@@ -415,6 +421,8 @@ items:
                     locale:
                         en:
                             title: Contact
+                        de:
+                            title: Kontakt
     -
         title: E-shop
         nesting: null
@@ -430,6 +438,9 @@ items:
             isExternal: '1'
             locale:
                 en:
+                    title: E-shop
+                    url: 'https://eshop.krnap.cz/'
+                de:
                     title: E-shop
                     url: 'https://eshop.krnap.cz/'
     -
@@ -448,15 +459,15 @@ items:
             locale:
                 en:
                     title: FAQ
+                de:
+                    title: FAQ
     -
         title: Kontakty
         nesting: null
         type: page
-        url: null
         code: ''
         reference: '20'
         cmsPage: page
-        replace: null
         viewBag:
             isHidden: '0'
             cssClass: ''
@@ -464,4 +475,6 @@ items:
             locale:
                 en:
                     title: Contacts
+                de:
+                    title: Kontakte
 name: 'Offcanvas Menu'
