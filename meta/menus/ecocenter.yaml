@@ -12,6 +12,8 @@ items:
             locale:
                 en:
                     title: 'Programs for public'
+                de:
+                    title: 'Programme für die Öffentlichkeit'
     -
         title: 'Programy pro školy'
         type: page
@@ -25,6 +27,8 @@ items:
             locale:
                 en:
                     title: 'Programs for schools'
+                de:
+                    title: 'Programme für Schulen'
     -
         title: Kontakt
         type: page
@@ -38,4 +42,6 @@ items:
             locale:
                 en:
                     title: Contact
+                de:
+                    title: Kontakt
 name: Ecocenter
