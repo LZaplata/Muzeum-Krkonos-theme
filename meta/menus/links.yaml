@@ -16,6 +16,9 @@ items:
                 en:
                     title: 'Muzejní sbírky'
                     url: 'http://sbirky.krnap.cz/'
+                de:
+                    title: 'Museumssammlungen'
+                    url: 'http://sbirky.krnap.cz/'
     -
         title: Knihovna
         nesting: null
@@ -31,7 +34,10 @@ items:
             isExternal: '1'
             locale:
                 en:
-                    title: Knihovna
+                    title: Library
+                    url: 'https://tritius.krnap.cz/'
+                de:
+                    title: Bibliothek
                     url: 'https://tritius.krnap.cz/'
     -
         title: 'Správa KRNAP'
@@ -50,6 +56,9 @@ items:
                 en:
                     title: 'Správa KRNAP'
                     url: 'https://www.krnap.cz/'
+                de:
+                    title: 'Správa KRNAP'
+                    url: 'https://www.krnap.cz/'
     -
         title: 'Nastavení cookies'
         type: page
@@ -63,6 +72,8 @@ items:
             locale:
                 en:
                     title: 'Cookies settings'
+                de:
+                    title: 'Cookie-Einstellungen'
     -
         title: GDPR
         nesting: null
@@ -78,6 +89,9 @@ items:
             isExternal: '0'
             locale:
                 en:
+                    title: GDPR
+                    url: /
+                de:
                     title: GDPR
                     url: /
     -
@@ -96,4 +110,6 @@ items:
             locale:
                 en:
                     title: 'Prohlášení o přístupnosti'
+                de:
+                    title: 'Erklärung zur Barrierefreiheit'
 name: Links
