@@ -314,7 +314,8 @@ items:
                 de:
                     title: Infozentren
         items:
-            -   title: 'Informační centrum Špindlerův Mlýn'
+            -
+                title: 'Informační centrum Špindlerův Mlýn'
                 type: url
                 url: 'https://www.krnap.cz/navstevnici/infocentra/informacni-centrum-spindleruv-mlyn/'
                 code: ''
@@ -326,7 +327,11 @@ items:
                         en:
                             title: 'Špindlerův Mlýn Information Centre'
                             url: 'https://www.krnap.cz/en/visitors/information-centres/spindleruv-mlyn-information-centre/'
-            -   title: 'Informační centrum Pec pod Sněžkou'
+                        de:
+                            title: 'Infozentrum Špindlerův Mlýn'
+                            url: 'https://www.krnap.cz/de/besucher/infozentren/infozentrum-spindleruv-mlyn/'
+            -
+                title: 'Informační centrum Pec pod Sněžkou'
                 type: url
                 url: 'https://www.krnap.cz/navstevnici/infocentra/informacni-centrum-pec-pod-snezkou/'
                 code: ''
@@ -338,7 +343,11 @@ items:
                         en:
                             title: 'Pec pod Sněžkou Information Centre'
                             url: 'https://www.krnap.cz/en/visitors/information-centres/pec-pod-snezkou-information-centre/'
-            -   title: 'Informační centrum Harrachov'
+                        de:
+                            title: 'Infozentrum Pec pod Sněžkou'
+                            url: 'https://www.krnap.cz/de/besucher/infozentren/infozentrum-pec-pod-snezkou/'
+            -
+                title: 'Informační centrum Harrachov'
                 type: url
                 url: 'https://www.krnap.cz/navstevnici/infocentra/informacni-centrum-harrachov/'
                 code: ''
@@ -350,6 +359,9 @@ items:
                         en:
                             title: 'Harrachov Information Centre'
                             url: 'https://www.krnap.cz/en/visitors/information-centres/harrachov-information-centre/'
+                        de:
+                            title: 'Infozentrum Harrachov'
+                            url: 'https://www.krnap.cz/de/besucher/infozentren/infozentrum-harrachov/'
     -
         title: Ekocentrum
         nesting: null
