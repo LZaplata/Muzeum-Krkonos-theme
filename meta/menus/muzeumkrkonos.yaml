@@ -1,13 +1,9 @@
 items:
     -
         title: Vstupenky
-        nesting: null
         type: url
         url: 'https://portal.colosseum.eu/tours?mrsid=313'
         code: ''
-        reference: null
-        cmsPage: null
-        replace: null
         viewBag:
             isHidden: '0'
             cssClass: ''
@@ -16,15 +12,15 @@ items:
                 en:
                     title: Tickets
                     url: 'https://portal.colosseum.eu/tours?mrsid=313'
+                de:
+                    title: Tickets
+                    url: 'https://portal.colosseum.eu/tours?mrsid=313'
     -
         title: Expozice
-        nesting: null
         type: page
-        url: null
         code: ''
         reference: '8'
         cmsPage: page
-        replace: null
         viewBag:
             isHidden: '0'
             cssClass: ''
@@ -32,15 +28,14 @@ items:
             locale:
                 en:
                     title: Exhibitions
+                de:
+                    title: Ausstellungen
     -
         title: 'Mapa muzea'
-        nesting: null
         type: page
-        url: null
         code: ''
         reference: '11'
         cmsPage: page
-        replace: null
         viewBag:
             isHidden: '0'
             cssClass: ''
@@ -48,15 +43,14 @@ items:
             locale:
                 en:
                     title: 'Museum map'
+                de:
+                    title: 'Karte des Museums'
     -
         title: Fotogalerie
-        nesting: null
         type: page
-        url: null
         code: ''
         reference: '10'
         cmsPage: page
-        replace: null
         viewBag:
             isHidden: '0'
             cssClass: ''
@@ -64,15 +58,14 @@ items:
             locale:
                 en:
                     title: Gallery
+                de:
+                    title: Fotogallerie
     -
         title: 'Pro rodiny s dětmi'
-        nesting: null
         type: page
-        url: null
         code: ''
         reference: '4'
         cmsPage: page
-        replace: null
         viewBag:
             isHidden: '0'
             cssClass: ''
@@ -80,15 +73,14 @@ items:
             locale:
                 en:
                     title: 'Families with children'
+                de:
+                    title: 'Für Eltern und Kinder'
     -
         title: 'Pro školy'
-        nesting: null
         type: page
-        url: null
         code: ''
         reference: '5'
         cmsPage: page
-        replace: null
         viewBag:
             isHidden: '0'
             cssClass: ''
@@ -96,15 +88,14 @@ items:
             locale:
                 en:
                     title: 'For schools'
+                de:
+                    title: 'Für Schulen'
     -
         title: 'Pro badatele'
-        nesting: null
         type: page
-        url: null
         code: ''
         reference: '2'
         cmsPage: page
-        replace: null
         viewBag:
             isHidden: '0'
             cssClass: ''
@@ -112,15 +103,14 @@ items:
             locale:
                 en:
                     title: 'For researchers'
+                de:
+                    title: 'Für Forscher'
     -
         title: 'Pro skupiny'
-        nesting: null
         type: page
-        url: null
         code: ''
         reference: '6'
         cmsPage: page
-        replace: null
         viewBag:
             isHidden: '0'
             cssClass: ''
@@ -128,15 +118,14 @@ items:
             locale:
                 en:
                     title: 'For groups'
+                de:
+                    title: 'Für Gruppen'
     -
         title: 'Dočasné výstavy'
-        nesting: null
         type: page
-        url: null
         code: ''
         reference: '9'
         cmsPage: page
-        replace: null
         viewBag:
             isHidden: '0'
             cssClass: ''
@@ -144,15 +133,14 @@ items:
             locale:
                 en:
                     title: 'Temporary exhibitions'
+                de:
+                    title: 'Temporäre Ausstellungen'
     -
         title: Akce
-        nesting: null
         type: page
-        url: null
         code: events
         reference: '14'
         cmsPage: page
-        replace: null
         viewBag:
             isHidden: '0'
             cssClass: ''
@@ -160,15 +148,14 @@ items:
             locale:
                 en:
                     title: Events
+                de:
+                    title: Veranstaltungen
     -
         title: Historie
-        nesting: null
         type: page
-        url: null
         code: ''
         reference: '7'
         cmsPage: page
-        replace: null
         viewBag:
             isHidden: '0'
             cssClass: ''
@@ -176,15 +163,14 @@ items:
             locale:
                 en:
                     title: 'History of the museum'
+                de:
+                    title: Geschichte
     -
         title: 'Muzejní kavárna'
-        nesting: null
         type: page
-        url: null
         code: ''
         reference: '12'
         cmsPage: page
-        replace: null
         viewBag:
             isHidden: '0'
             cssClass: ''
@@ -192,15 +178,14 @@ items:
             locale:
                 en:
                     title: 'Museum Café'
+                de:
+                    title: Museumscafé
     -
         title: Kontakty
-        nesting: null
         type: page
-        url: null
         code: ''
         reference: '13'
         cmsPage: page
-        replace: null
         viewBag:
             isHidden: '0'
             cssClass: ''
@@ -208,4 +193,6 @@ items:
             locale:
                 en:
                     title: Contacts
+                de:
+                    title: Kontakte
 name: 'Muzeum Krkonoš'

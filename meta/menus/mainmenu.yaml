@@ -3,11 +3,7 @@ items:
         title: 'Muzea a expozice'
         nesting: null
         type: header
-        url: null
         code: museums
-        reference: null
-        cmsPage: null
-        replace: null
         viewBag:
             isHidden: '0'
             cssClass: ''
@@ -15,16 +11,16 @@ items:
             locale:
                 en:
                     title: 'Museums and Exhibitions'
+                de:
+                    title: 'Museen und Ausstellungen'
         items:
             -
                 title: 'Muzeum Krkonoš'
                 nesting: null
                 type: page
-                url: null
                 code: ''
                 reference: '1'
                 cmsPage: page
-                replace: null
                 viewBag:
                     isHidden: '0'
                     cssClass: ''
@@ -32,6 +28,8 @@ items:
                     locale:
                         en:
                             title: 'Krkonoše Museum'
+                        de:
+                            title: 'Museum des Riesengebirges'
             -
                 title: 'Krkonošské muzeum Vrchlabí'
                 type: url
@@ -45,6 +43,9 @@ items:
                         en:
                             title: 'Krkonoše Museum in Vrchlabí'
                             url: 'https://www.krnap.cz/en/visitors/museums/krkonose-mountains-museum-in-vrchlabi-four-historical-houses/'
+                        de:
+                            title: 'Riesengebirgs-Museum in Vrchlabí'
+                            url: 'https://www.krnap.cz/de/besucher/museen/riesengebirgs-museum-in-vrchlabi-vier-historische-haeuser/'
             -
                 title: 'Krkonošské muzeum Jilemnice'
                 type: url
@@ -58,6 +59,9 @@ items:
                         en:
                             title: 'Krkonoše Museum Jilemnice'
                             url: 'https://www.krnap.cz/en/visitors/museums/krkonose-mountains-museum-jilemnice/'
+                        de:
+                            title: 'Riesengebirgs-Museum Jilemnice'
+                            url: 'https://www.krnap.cz/de/besucher/museen/riesengebirgs-museum-jilemnice/'
             -
                 title: 'Památník zapadlých vlastenců Paseky nad Jizerou'
                 type: url
@@ -71,6 +75,9 @@ items:
                         en:
                             title: 'Monument to Fallen Patriots in Paseky nad Jizerou'
                             url: 'https://www.krnap.cz/en/visitors/museums/monument-to-fallen-patriots-paseky-nad-jizerou/'
+                        de:
+                            title: 'Gedenkstätte der vergessenen Patrioten in Paseky nad Jizerou'
+                            url: 'https://www.krnap.cz/de/besucher/museen/gedenkstaette-der-vergessenen-patrioten-paseky-nad-jizerou/'
             -
                 title: 'Krkonošské muzeum Šindelka Harrachov'
                 type: url
@@ -84,6 +91,9 @@ items:
                         en:
                             title: 'Šindelka Exposition in Harrachov'
                             url: 'https://www.krnap.cz/en/visitors/museums/sindelka-exposition-harrachov/'
+                        de:
+                            title: 'Ausstellung Šindelka in Harrachov'
+                            url: 'https://www.krnap.cz/de/besucher/museen/ausstellung-sindelka-harrachov/'
             -
                 title: 'Expozice Vápenka Albeřice'
                 type: url
@@ -97,15 +107,14 @@ items:
                         en:
                             title: 'Vápenka Museum in Horní Albeřice'
                             url: 'https://www.krnap.cz/en/visitors/museums/vapenka-museum-in-horni-alberice/'
+                        de:
+                            title: 'Museum Vápenka in Horní Albeřice'
+                            url: 'https://www.krnap.cz/de/besucher/museen/museum-vapenka-in-horni-alberice/'
     -
         title: Infocentra
         nesting: null
         type: header
-        url: null
         code: infocenters
-        reference: null
-        cmsPage: null
-        replace: null
         viewBag:
             isHidden: '0'
             cssClass: ''
@@ -113,6 +122,8 @@ items:
             locale:
                 en:
                     title: 'Information centres'
+                de:
+                    title: Infozentren
         items:
             -
                 title: 'Informační centrum Špindlerův Mlýn'
@@ -127,6 +138,9 @@ items:
                         en:
                             title: 'Špindlerův Mlýn Information Centre'
                             url: 'https://www.krnap.cz/en/visitors/information-centres/spindleruv-mlyn-information-centre/'
+                        de:
+                            title: 'Infozentrum Špindlerův Mlýn'
+                            url: 'https://www.krnap.cz/de/besucher/infozentren/infozentrum-spindleruv-mlyn/'
             -
                 title: 'Informační centrum Harrachov'
                 type: url
@@ -140,6 +154,9 @@ items:
                         en:
                             title: 'Harrachov Information Centre'
                             url: 'https://www.krnap.cz/en/visitors/information-centres/harrachov-information-centre/'
+                        de:
+                            title: 'Infozentrum Harrachov'
+                            url: 'https://www.krnap.cz/de/besucher/infozentren/infozentrum-harrachov/'
             -
                 title: 'Informační centrum Pec pod Sněžkou'
                 type: url
@@ -153,15 +170,16 @@ items:
                         en:
                             title: 'Pec pod Sněžkou Information Centre'
                             url: 'https://www.krnap.cz/en/visitors/information-centres/pec-pod-snezkou-information-centre/'
+                        de:
+                            title: 'Infozentrum Pec pod Sněžkou'
+                            url: 'https://www.krnap.cz/de/besucher/infozentren/infozentrum-pec-pod-snezkou/'
     -
         title: Ekocentrum
         nesting: null
         type: page
-        url: null
         code: ''
         reference: '16'
         cmsPage: page
-        replace: null
         viewBag:
             isHidden: '0'
             cssClass: ''
@@ -169,6 +187,8 @@ items:
             locale:
                 en:
                     title: Ecocentre
+                de:
+                    title: Umweltzentrum
     -
         title: E-shop
         nesting: null
@@ -184,6 +204,9 @@ items:
             isExternal: '1'
             locale:
                 en:
+                    title: E-shop
+                    url: 'https://eshop.krnap.cz/'
+                de:
                     title: E-shop
                     url: 'https://eshop.krnap.cz/'
     -
@@ -202,15 +225,15 @@ items:
             locale:
                 en:
                     title: FAQ
+                de:
+                    title: FAQ
     -
         title: Kontakty
         nesting: null
         type: page
-        url: null
         code: ''
         reference: '20'
         cmsPage: page
-        replace: null
         viewBag:
             isHidden: '0'
             cssClass: ''
@@ -218,4 +241,6 @@ items:
             locale:
                 en:
                     title: Contacts
+                de:
+                    title: Kontakte
 name: 'Main Menu'
