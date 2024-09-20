@@ -15,6 +15,9 @@ items:
                 de:
                     title: Tickets
                     url: 'https://portal.colosseum.eu/tours?mrsid=313'
+                pl:
+                    title: Bilety
+                    url: 'https://portal.colosseum.eu/tours?mrsid=313'
     -
         title: Expozice
         type: page
@@ -30,6 +33,8 @@ items:
                     title: Exhibitions
                 de:
                     title: Ausstellungen
+                pl:
+                    title: Ekspozycje
     -
         title: 'Mapa muzea'
         type: page
@@ -45,6 +50,8 @@ items:
                     title: 'Museum map'
                 de:
                     title: 'Karte des Museums'
+                pl:
+                    title: 'Mapa muzeum'
     -
         title: Fotogalerie
         type: page
@@ -60,6 +67,8 @@ items:
                     title: Gallery
                 de:
                     title: Fotogallerie
+                pl:
+                    title: Galeria
     -
         title: 'Pro rodiny s dětmi'
         type: page
@@ -75,6 +84,8 @@ items:
                     title: 'Families with children'
                 de:
                     title: 'Für Eltern und Kinder'
+                pl:
+                    title: 'Dla rodzin z dziećmi'
     -
         title: 'Pro školy'
         type: page
@@ -90,6 +101,8 @@ items:
                     title: 'For schools'
                 de:
                     title: 'Für Schulen'
+                pl:
+                    title: 'Dla szkół'
     -
         title: 'Pro badatele'
         type: page
@@ -105,6 +118,8 @@ items:
                     title: 'For researchers'
                 de:
                     title: 'Für Forscher'
+                pl:
+                    title: 'Dla badaczy'
     -
         title: 'Pro skupiny'
         type: page
@@ -120,6 +135,8 @@ items:
                     title: 'For groups'
                 de:
                     title: 'Für Gruppen'
+                pl:
+                    title: 'Dla grup'
     -
         title: 'Dočasné výstavy'
         type: page
@@ -135,6 +152,8 @@ items:
                     title: 'Temporary exhibitions'
                 de:
                     title: 'Temporäre Ausstellungen'
+                pl:
+                    title: 'Wystawy czasowe'
     -
         title: Akce
         type: page
@@ -150,6 +169,8 @@ items:
                     title: Events
                 de:
                     title: Veranstaltungen
+                pl:
+                    title: Wydarzenia
     -
         title: Historie
         type: page
@@ -165,6 +186,8 @@ items:
                     title: 'History of the museum'
                 de:
                     title: Geschichte
+                pl:
+                    title: Historia
     -
         title: 'Muzejní kavárna'
         type: page
@@ -180,6 +203,8 @@ items:
                     title: 'Museum Café'
                 de:
                     title: Museumscafé
+                pl:
+                    title: 'Kawiarnia muzealna'
     -
         title: Kontakty
         type: page
@@ -195,4 +220,6 @@ items:
                     title: Contacts
                 de:
                     title: Kontakte
+                pl:
+                    title: Kontakty
 name: 'Muzeum Krkonoš'

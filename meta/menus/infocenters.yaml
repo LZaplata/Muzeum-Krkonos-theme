@@ -15,6 +15,9 @@ items:
                 de:
                     title: 'Infozentrum Špindlerův Mlýn'
                     url: 'https://www.krnap.cz/de/besucher/infozentren/infozentrum-spindleruv-mlyn/'
+                pl:
+                    title: 'Centrum informacji Špindlerův Mlýn'
+                    url: 'https://www.krnap.cz/pl/gosci/centra-informacji/centrum-informacji-spindleruv-mlyn/'
     -
         title: 'Informační centrum Pec pod Sněžkou'
         type: url
@@ -31,6 +34,9 @@ items:
                 de:
                     title: 'Infozentrum Pec pod Sněžkou'
                     url: 'https://www.krnap.cz/de/besucher/infozentren/infozentrum-pec-pod-snezkou/'
+                pl:
+                    title: 'Centrum informacji Pec pod Sněžkou'
+                    url: 'https://www.krnap.cz/pl/gosci/centra-informacji/centrum-informacji-pec-pod-snezkou/'
     -
         title: 'Informační centrum Harrachov'
         type: url
@@ -47,4 +53,7 @@ items:
                 de:
                     title: 'Infozentrum Harrachov'
                     url: 'https://www.krnap.cz/de/besucher/infozentren/infozentrum-harrachov/'
+                pl:
+                    title: 'Centrum informacji Harrachov'
+                    url: 'https://www.krnap.cz/pl/gosci/centra-informacji/centrum-informacji-harrachov/'
 name: Infocenters

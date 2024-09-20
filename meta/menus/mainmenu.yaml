@@ -13,6 +13,8 @@ items:
                     title: 'Museums and Exhibitions'
                 de:
                     title: 'Museen und Ausstellungen'
+                pl:
+                    title: 'Muzea i ekspozycje'
         items:
             -
                 title: 'Muzeum Krkonoš'
@@ -30,6 +32,8 @@ items:
                             title: 'Krkonoše Museum'
                         de:
                             title: 'Museum des Riesengebirges'
+                        pl:
+                            title: 'Muzeum Karkonoszy'
             -
                 title: 'Krkonošské muzeum Vrchlabí'
                 type: url
@@ -46,6 +50,9 @@ items:
                         de:
                             title: 'Riesengebirgs-Museum in Vrchlabí'
                             url: 'https://www.krnap.cz/de/besucher/museen/riesengebirgs-museum-in-vrchlabi-vier-historische-haeuser/'
+                        pl:
+                            title: 'Muzeum Karkonoskie Vrchlabí'
+                            url: 'https://www.krnap.cz/pl/gosci/muzea/muzeum-karkonoskie-vrchlabi-cztery-zabytkowe-domy/'
             -
                 title: 'Krkonošské muzeum Jilemnice'
                 type: url
@@ -62,6 +69,9 @@ items:
                         de:
                             title: 'Riesengebirgs-Museum Jilemnice'
                             url: 'https://www.krnap.cz/de/besucher/museen/riesengebirgs-museum-jilemnice/'
+                        pl:
+                            title: 'Karkonoskie Muzeum Jilemnice'
+                            url: 'https://www.krnap.cz/pl/gosci/muzea/karkonoskie-muzeum-jilemnice/'
             -
                 title: 'Památník zapadlých vlastenců Paseky nad Jizerou'
                 type: url
@@ -78,6 +88,9 @@ items:
                         de:
                             title: 'Gedenkstätte der vergessenen Patrioten in Paseky nad Jizerou'
                             url: 'https://www.krnap.cz/de/besucher/museen/gedenkstaette-der-vergessenen-patrioten-paseky-nad-jizerou/'
+                        pl:
+                            title: 'Pomnik zapomnianych patriotów Paseky nad Jizera'
+                            url: 'https://www.krnap.cz/pl/gosci/muzea/pomnik-zapomnianych-patriotow-paseky-nad-jizera/'
             -
                 title: 'Krkonošské muzeum Šindelka Harrachov'
                 type: url
@@ -94,6 +107,9 @@ items:
                         de:
                             title: 'Ausstellung Šindelka in Harrachov'
                             url: 'https://www.krnap.cz/de/besucher/museen/ausstellung-sindelka-harrachov/'
+                        pl:
+                            title: 'Wystawa Šindelka Harrachov'
+                            url: 'https://www.krnap.cz/pl/gosci/muzea/wystawa-sindelka-harrachov/'
             -
                 title: 'Expozice Vápenka Albeřice'
                 type: url
@@ -110,6 +126,9 @@ items:
                         de:
                             title: 'Museum Vápenka in Horní Albeřice'
                             url: 'https://www.krnap.cz/de/besucher/museen/museum-vapenka-in-horni-alberice/'
+                        pl:
+                            title: 'Muzeum Vápenka Horní Albeřice'
+                            url: 'https://www.krnap.cz/pl/gosci/muzea/muzeum-vapenka-w-miejscowosci-horni-alberice/'
     -
         title: Infocentra
         nesting: null
@@ -124,6 +143,8 @@ items:
                     title: 'Information centres'
                 de:
                     title: Infozentren
+                pl:
+                    title: 'Centra informacyjne'
         items:
             -
                 title: 'Informační centrum Špindlerův Mlýn'
@@ -141,22 +162,9 @@ items:
                         de:
                             title: 'Infozentrum Špindlerův Mlýn'
                             url: 'https://www.krnap.cz/de/besucher/infozentren/infozentrum-spindleruv-mlyn/'
-            -
-                title: 'Informační centrum Harrachov'
-                type: url
-                url: 'https://www.krnap.cz/navstevnici/infocentra/informacni-centrum-harrachov/'
-                code: ''
-                viewBag:
-                    isHidden: '0'
-                    cssClass: ''
-                    isExternal: '1'
-                    locale:
-                        en:
-                            title: 'Harrachov Information Centre'
-                            url: 'https://www.krnap.cz/en/visitors/information-centres/harrachov-information-centre/'
-                        de:
-                            title: 'Infozentrum Harrachov'
-                            url: 'https://www.krnap.cz/de/besucher/infozentren/infozentrum-harrachov/'
+                        pl:
+                            title: 'Centrum informacji Špindlerův Mlýn'
+                            url: 'https://www.krnap.cz/pl/gosci/centra-informacji/centrum-informacji-spindleruv-mlyn/'
             -
                 title: 'Informační centrum Pec pod Sněžkou'
                 type: url
@@ -173,6 +181,28 @@ items:
                         de:
                             title: 'Infozentrum Pec pod Sněžkou'
                             url: 'https://www.krnap.cz/de/besucher/infozentren/infozentrum-pec-pod-snezkou/'
+                        pl:
+                            title: 'Centrum informacji Pec pod Sněžkou'
+                            url: 'https://www.krnap.cz/pl/gosci/centra-informacji/centrum-informacji-pec-pod-snezkou/'
+            -
+                title: 'Informační centrum Harrachov'
+                type: url
+                url: 'https://www.krnap.cz/navstevnici/infocentra/informacni-centrum-harrachov/'
+                code: ''
+                viewBag:
+                    isHidden: '0'
+                    cssClass: ''
+                    isExternal: '1'
+                    locale:
+                        en:
+                            title: 'Harrachov Information Centre'
+                            url: 'https://www.krnap.cz/en/visitors/information-centres/harrachov-information-centre/'
+                        de:
+                            title: 'Infozentrum Harrachov'
+                            url: 'https://www.krnap.cz/de/besucher/infozentren/infozentrum-harrachov/'
+                        pl:
+                            title: 'Centrum informacji Harrachov'
+                            url: 'https://www.krnap.cz/pl/gosci/centra-informacji/centrum-informacji-harrachov/'
     -
         title: Ekocentrum
         nesting: null
@@ -189,6 +219,8 @@ items:
                     title: Ecocentre
                 de:
                     title: Umweltzentrum
+                pl:
+                    title: Ekocentrum
     -
         title: E-shop
         nesting: null
@@ -209,6 +241,9 @@ items:
                 de:
                     title: E-shop
                     url: 'https://eshop.krnap.cz/'
+                pl:
+                    title: E-shop
+                    url: 'https://eshop.krnap.cz/'
     -
         title: FAQ
         nesting: null
@@ -227,6 +262,8 @@ items:
                     title: FAQ
                 de:
                     title: FAQ
+                pl:
+                    title: FAQ
     -
         title: Kontakty
         nesting: null
@@ -243,4 +280,6 @@ items:
                     title: Contacts
                 de:
                     title: Kontakte
+                pl:
+                    title: Kontakty
 name: 'Main Menu'
