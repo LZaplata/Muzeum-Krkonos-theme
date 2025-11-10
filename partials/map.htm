@@ -3,106 +3,113 @@
 </div>
 
 {% put scripts %}
-    <script type="text/javascript" src="https://api.mapy.cz/loader.js"></script>
-    <script type="text/javascript">Loader.load(null, {suggest: true});</script>
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.2/dist/leaflet.css" integrity="sha256-sA+zWATbFveLLNqWO2gtiw3HL/lh1giY/Inf1BJ0z14=" crossorigin="" />
+    <link rel="stylesheet" href="https://unpkg.com/leaflet.markercluster@1.4.1/dist/MarkerCluster.css" crossorigin="" />
+    <script src="https://unpkg.com/leaflet@1.9.2/dist/leaflet.js" integrity="sha256-o9N1jGDZrf5tS+Ft4gbIK7mYMipq9lqpVJ91xHSyKhg=" crossorigin=""></script>
+    <script src="https://unpkg.com/leaflet.markercluster@1.4.1/dist/leaflet.markercluster.js" crossorigin=""></script>
+
 
     <script>
-        initMap();
+        // střed ČR - 15.3386383, 49.7437572
+        const lng = 15.6363456;
+        const lat = 50.6850211;
+        const zoom = 11;
+        const map = L.map("map").setView([lat, lng], zoom);
+        const API_KEY = "GUQkzdX6aKfajpdPVS_kxvuH2an-1XGtgfJNyN8e6aY";
 
-        function initMap(lng = 15.6363456, lat = 50.6850211, zoom = 11) {        // střed ČR - 15.3386383, 49.7437572
-            var center = SMap.Coords.fromWGS84(lng, lat);
-            var map = new SMap(JAK.gel("map"), center, zoom);
+        L.tileLayer("https://api.mapy.com/v1/maptiles/basic/256/{z}/{x}/{y}?apikey=" + API_KEY, {
+            minZoom: 0,
+            maxZoom: 19,
+            attribution: "<a href='https://api.mapy.com/copyright' target='_blank'>&copy; Seznam.cz a.s. a další</a>",
+        }).addTo(map);
 
-            map.addDefaultLayer(SMap.DEF_BASE).enable();
-            map.addDefaultControls();
+        const LogoControl = L.Control.extend({
+            options: {
+                position: "bottomleft",
+            },
 
-            var layer = new SMap.Layer.Marker();
-            var clusterer = new SMap.Marker.Clusterer(map);
+            onAdd: function (map) {
+                const container = L.DomUtil.create("div");
+                const link = L.DomUtil.create("a", "", container);
 
-            layer.setClusterer(clusterer);
+                link.setAttribute("href", "http://mapy.com/");
+                link.setAttribute("target", "_blank");
+                link.innerHTML = "<img src='https://api.mapy.com/img/api/logo.svg' width='100px' />";
+                L.DomEvent.disableClickPropagation(link);
 
-            var markers = [];
+                return container;
+            },
+        });
 
-            {% for museum in this.theme.museums %}
-                var x = "{{ museum.lng }}";
-                var y = "{{ museum.lat }}";
-                var coords = SMap.Coords.fromWGS84(x, y);
-                var marker = new SMap.Marker(coords, false, {
-                    "url": "{{ ['assets/images/icons/', loop.index, '-marker.svg']|join|theme }}",
+        new LogoControl().addTo(map);
+
+        let markers = L.markerClusterGroup({
+            iconCreateFunction: function (cluster) {
+                return L.divIcon({
+                    html: "<div class='cluster'><div><span>" + cluster.getChildCount() + "</span></div></div>",
                 });
-                var card = new SMap.Card();
-
-                var header = `
-                    <p class="h3 fw-semibold text-primary mb-0">
-                        {{ museum.title }}
-                    </p>
-                `;
-
-                {#var body = `#}
-                {#    <p class="ff-inter fs-13 fw-regular ls-n02 text-tertiary-55 mb-0 mt-2">#}
-                {#        {{ place.street }} <br>#}
-                {#        {{ place.zip }} {{ place.city }}#}
-                {#    </p>#}
-                {#`;#}
-
-{#                {% if place.link %}#}
-{#                    var body = body + `#}
-{#                        <p class="ff-inter fs-13 fw-regular ls-n02 mb-0 mt-2">#}
-{#                            <a href="https://{{ place.link }}" target="_blank" class="text-primary text-secondary-hover transition text-decoration-underline-w-hover">#}
-{#                                {{ place.link }}#}
-{#                            </a>#}
-{#                        </p>#}
-{#                    `;#}
-{#                {% endif %}#}
-
-{#                {% if place.phone %}#}
-{#                    var body = body + `#}
-{#                        <p class="ff-inter fs-13 ls-n02 mt-3 mb-0 d-flex align-items-center">#}
-{#                            <span class="mi-phone mi-16 bg-tertiary"></span>#}
-
-{#                            <a href="tel:{{ place.phone }}" target="_blank" class="text-decoration-underline-w-hover text-tertiary text-primary-hover transition ms-2">#}
-{#                                {{ place.phone }}#}
-{#                            </a>#}
-{#                        </p>#}
-{#                    `;#}
-{#                {% endif %}#}
-
-{#                {% if place.email %}#}
-{#                    var body = body + `#}
-{#                        <p class="ff-inter fs-13 ls-n02 mt-1 mb-0 d-flex align-items-center">#}
-{#                            <span class="mi-paper-plane mi-16 bg-tertiary"></span>#}
-
-{#                            <a href="tel:{{ place.email }}" target="_blank" class="text-decoration-underline-w-hover text-tertiary text-primary-hover transition ms-2">#}
-{#                                {{ place.email }}#}
-{#                            </a>#}
-{#                        </p>#}
-{#                    `;#}
-{#                {% endif %}#}
-
-//                var body = body + `<!---->
-//<!--                    </div>-->
-//                // `;
-
-                card.getHeader().innerHTML = header;
-                // card.getBody().innerHTML = body;
-
-                marker.decorate(SMap.Marker.Feature.Card, card);
-                markers.push(marker);
-            {% endfor %}
-
-            layer.addMarker(markers);
-            map.addLayer(layer).enable();
-
-            var mouseControl = null;
-            var controls = map.getControls();
-
-            for (var i = 0; i < controls.length; i++) {
-                if (controls[i] instanceof SMap.Control.Mouse) {
-                    mouseControl = controls[i];
-                }
             }
+        });
+        let marker = null;
+        let content = "";
 
-            mouseControl.configure(SMap.MOUSE_PAN | SMap.MOUSE_ZOOM);
-        }
+        {% for museum in this.theme.museums %}
+            marker = L.marker([{{ museum.lat }}, {{ museum.lng }}], {
+                icon: L.icon({
+                    iconUrl: "{{ ['assets/images/icons/', loop.index, '-marker.svg']|join|theme }}",
+                    iconSize: [57, 57],
+                }),
+            });
+            content = "\
+                <p class='h3 fw-semibold text-primary mb-0'>\
+                    {{ museum.title }}\
+                </p>\
+            ";
+                {#<p class='ff-inter fs-13 fw-regular ls-n02 text-tertiary-55 mb-0 mt-2'>\#}
+                {#    {{ place.street }} <br>\#}
+                {#    {{ place.zip }} {{ place.city }}\#}
+                {#</p>\#}
+            // ";
+
+{#            {% if place.link %}#}
+{#                content = content + "\#}
+{#                    <p class='ff-inter fs-13 fw-regular ls-n02 mb-0 mt-2'>\#}
+{#                        <a href='https://{{ place.link }}' target='_blank' class='text-primary text-secondary-hover transition text-decoration-underline-w-hover'>\#}
+{#                            {{ place.link }}\#}
+{#                        </a>\#}
+{#                    </p>\#}
+{#                ";#}
+{#            {% endif %}#}
+
+{#            {% if place.phone %}#}
+{#                content = content + "\#}
+{#                    <p class='ff-inter fs-13 ls-n02 mt-3 mb-0 d-flex align-items-center'>\#}
+{#                        <span class='mi-phone mi-16 bg-tertiary'></span>\#}
+{#                        \#}
+{#                        <a href='tel:{{ place.phone }}' target='_blank' class='text-decoration-underline-w-hover text-tertiary text-primary-hover transition ms-2'>\#}
+{#                            {{ place.phone }}\#}
+{#                        </a>\#}
+{#                    </p>\#}
+{#                ";#}
+{#            {% endif %}#}
+
+{#            {% if place.email %}#}
+{#                content = content + "\#}
+{#                    <p class='ff-inter fs-13 ls-n02 mt-1 mb-0 d-flex align-items-center'>\#}
+{#                        <span class='mi-paper-plane mi-16 bg-tertiary'></span>\#}
+{#                        \#}
+{#                        <a href='tel:{{ place.email }}' target='_blank' class='text-decoration-underline-w-hover text-tertiary text-primary-hover transition ms-2'>\#}
+{#                            {{ place.email }}\#}
+{#                        </a>\#}
+{#                    </p>\#}
+{#                ";#}
+{#            {% endif %}#}
+
+            marker.bindPopup(content).openPopup();
+
+            markers.addLayer(marker);
+        {% endfor %}
+
+        map.addLayer(markers);
     </script>
 {% endput %}
